@@ -1,0 +1,25 @@
+Statement of Data Analytics Problem:
+	My fiancée, an Internal Medicine Resident, and I will be relocating at the end of her residency. I am pursuing a career change in software engineering. I will most likely be moving early in pursuit of my career change.  I would like to apply to jobs in a location that most fits our needs and preferences for a community.
+	We chose five cities to start with:
+
+1.	Dallas, TX
+2.	Austin, TX
+3.	Chicago, IL
+4.	Jacksonville, FL
+5.	San Diego, CA
+
+There will be two parts to this analysis:
+
+1)	Find the neighborhoods across these cities that most closely match our favorite locations around the US in regards to venues and culture:
+	a.	West Palm Beach, FL
+	b.	La Jolla, CA
+	c.	Portland, ME
+	d.	Downtown Chicago, IL
+
+2)	Further segment the neighborhoods by demographics within the zip codes such as:
+	a.	Compensation in both the Medicine and Software Engineering fields.
+	b.	Commute time to work.
+	c.	Median Income in location.
+	d.	Housing cost and availability.
+
+By using available data we hope to find a list of the top 5 choices overall as well as the top choice in each city.
