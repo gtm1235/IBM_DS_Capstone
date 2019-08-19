@@ -1,0 +1,55 @@
+Current Jupyter Notebook link and filtered data sets (if github link int working please use nbviewer)
+	a)	https://github.com/gtm1235/IBM_DS_Capstone/blob/master/moving_challenge.ipynb
+		or
+		https://nbviewer.jupyter.org/github/gtm1235/IBM_DS_Capstone/blob/master/moving_challenge.ipynb
+	b)	https://github.com/gtm1235/IBM_DS_Capstone/blob/master/austin_filtered.csv
+	c)	https://github.com/gtm1235/IBM_DS_Capstone/blob/master/chicago_filtered.csv
+
+
+In order to solve the problem we must acquire a variety of data sets:
+1)	Lists of neighborhoods in the required cities. This data will be acquired from two sources:
+	a.	Wikipedia.com
+		i.	https://en.wikipedia.org/wiki/List_of_communities_and_neighborhoods_of_San_Diego
+		ii.	https://en.wikipedia.org/wiki/List_of_Austin_neighborhoods
+		iii.	https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Dallas
+		iv.	https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Chicago
+	b.	Conservopedia.com
+		i.	https://www.conservapedia.com/Neighborhoods_of_Jacksonville,_Florida
+
+2) 	I was able to find 4 of the 5 cities on Wikipedia, however, I had to search additional sources for data on Jacksonville,FL neighborhoods. 
+	We will use a variety of webscraping tools 	to extract the table data. These include:
+	a)	Pd.read_html – table extraction tool for html based data
+	b)	BeautifulSoup4 – an htm parsing tool
+	c)	Requests – http request module
+	d)	Numpy – matrix manipulation tool
+	e)	Pandas – series and dataframe manipulation tool
+
+3)	Latitude, Longitude and zip code geolocation data: this data will be obtained from gooles geolocation API using the requests module. 
+	Python example:
+
+		url=’https://maps.googleapis.com/maps/api/geocode/json?latlng={},
+		{}&key={}'.format(neighborhoods['Latitude'][i], neighborhoods['Longitude'][i],api_key)
+
+
+
+3)	Zip code Demographics will be obtained from zipwho.com. A website that offers a variety of data such as median income, housing costs, 
+	cost of living index, housing, education, and more. Using BeautifulSoup4 and requests, I will extract the relevant data. 
+	Python example:
+
+		url_zip = 'https://zipwho.com/?zip={}-&city=&filters=--_--_--_--&state=&mode=zip'.format(neighborhood_zip['zip_code'][i])
+	
+4)	Location data describing venues in the area that give a feel for the lifestyle available in the  venue.  A list of venue categories 
+	can be found at : https://developer.foursquare.com/docs/resources/categories.
+
+	Python url example:
+
+		url='https://api.foursquare.com/v2/venues/explore?&client_id={}&client_secret={}&v={}&ll={},
+		{}&radius={}&limit={}'.format(CLIENT_ID, CLIENT_SECRET, VERSION, neighborhood_latitude, neighborhood_longitude, radius, LIMIT)
+
+
+5)	 Additional zip code data including average commute time and location based industry income were found at 2 location in csv format.  
+
+		Commute Link: https://drive.google.com/file/d/1FCEbir7x__bhfdrufJ63xgCdPCnaZv6z/view?usp=sharing
+
+		Industry Salary link:  https://drive.google.com/file/d/1-4HlSaGHyX07qRfo9sdw5AM1YaFb0Vmk/view?usp=sharing
+
