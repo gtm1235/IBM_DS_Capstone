@@ -1,0 +1,19 @@
+In order to solve the problem we must acquire a variety of data sets:
+1) Lists of neighborhoods in the required cities. This data will be acquired from two sources:
+a. Wikipedia.com
+i. https://en.wikipedia.org/wiki/List_of_communities_and_neighborhoods_of_San_Diego
+ii. https://en.wikipedia.org/wiki/List_of_Austin_neighborhoods
+iii. https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Dallas
+iv. https://en.wikipedia.org/wiki/List_of_neighborhoods_in_Chicago
+b. Conservopedia.com
+i. https://www.conservapedia.com/Neighborhoods_of_Jacksonville,_Florida
+
+I was able to find 4 of the 5 cities on Wikipedia, however, I had to search additional sources for data on Jacksonville,FL neighborhoods. We will use a variety of webscraping tools to extract the table data. These include:
+1) Pd.read_html – table extraction tool for html based data
+2) BeautifulSoup4 – an htm parsing tool
+3) Requests – http request module
+4) Numpy – matrix manipulation tool
+5) Pandas – series and dataframe manipulation tool
+
+2) Latitude, Longitude and zip code geolocation data
+
