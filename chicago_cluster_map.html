@@ -1,0 +1,5278 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_52dda75ea8b1493ba49ca2028b06c666 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_52dda75ea8b1493ba49ca2028b06c666" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_52dda75ea8b1493ba49ca2028b06c666 = L.map(
+                                  'map_52dda75ea8b1493ba49ca2028b06c666',
+                                  {center: [41.8755616,-87.6244212],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_8bdb31f60f6744dd8ace4ee59614f172 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+        
+    
+            var circle_marker_3322a36aa5be418a9f37f695588573c1 = L.circleMarker(
+                [32.8770417,-96.74187049999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_b0fd97b408614de481a4234fe6b3b65c = L.popup({maxWidth: '300'});
+
+            
+                var html_d9fe028c68f945eca43d17da77ceca37 = $('<div id="html_d9fe028c68f945eca43d17da77ceca37" style="width: 100.0%; height: 100.0%;">Abrams Place, Dallas, TX Cluster 1</div>')[0];
+                popup_b0fd97b408614de481a4234fe6b3b65c.setContent(html_d9fe028c68f945eca43d17da77ceca37);
+            
+
+            circle_marker_3322a36aa5be418a9f37f695588573c1.bindPopup(popup_b0fd97b408614de481a4234fe6b3b65c);
+
+            
+        
+    
+            var circle_marker_9c6e522d2d944cbcb56f93aa65f15954 = L.circleMarker(
+                [32.6576534,-96.77505099999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_16b5e5198ad44ec294cae6334ed7b7e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_94bd45de0e804dd189edf653b058191a = $('<div id="html_94bd45de0e804dd189edf653b058191a" style="width: 100.0%; height: 100.0%;">Alta Park, Dallas, TX Cluster 0</div>')[0];
+                popup_16b5e5198ad44ec294cae6334ed7b7e5.setContent(html_94bd45de0e804dd189edf653b058191a);
+            
+
+            circle_marker_9c6e522d2d944cbcb56f93aa65f15954.bindPopup(popup_16b5e5198ad44ec294cae6334ed7b7e5);
+
+            
+        
+    
+            var circle_marker_a52f02d0ea8947049abe3bc308766c17 = L.circleMarker(
+                [32.6925534,-117.0683753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#56f7ca",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#56f7ca",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_72fb7ef1f5474a1384ed395187cd0626 = L.popup({maxWidth: '300'});
+
+            
+                var html_57b7bd58e99141e5856b88849c3c31b5 = $('<div id="html_57b7bd58e99141e5856b88849c3c31b5" style="width: 100.0%; height: 100.0%;">Alta Vista, San Diego, CA Cluster 9</div>')[0];
+                popup_72fb7ef1f5474a1384ed395187cd0626.setContent(html_57b7bd58e99141e5856b88849c3c31b5);
+            
+
+            circle_marker_a52f02d0ea8947049abe3bc308766c17.bindPopup(popup_72fb7ef1f5474a1384ed395187cd0626);
+
+            
+        
+    
+            var circle_marker_6163453279344b0093017d5eba6b2e69 = L.circleMarker(
+                [41.6541653,-87.5996863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8cfead",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8cfead",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_8b42d30e75d046eb99d08ab581abee99 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9d063a9318e48fba8b1e9c5d20f2147 = $('<div id="html_e9d063a9318e48fba8b1e9c5d20f2147" style="width: 100.0%; height: 100.0%;">Altgeld Gardens, Chicago, IL Cluster 11</div>')[0];
+                popup_8b42d30e75d046eb99d08ab581abee99.setContent(html_e9d063a9318e48fba8b1e9c5d20f2147);
+            
+
+            circle_marker_6163453279344b0093017d5eba6b2e69.bindPopup(popup_8b42d30e75d046eb99d08ab581abee99);
+
+            
+        
+    
+            var circle_marker_d18f4ff1acec4c23977b1b0e6b92ad3b = L.circleMarker(
+                [41.9795718,-87.67007730000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_fe525b4d06a04114a445358419d34212 = L.popup({maxWidth: '300'});
+
+            
+                var html_627b2402368341a89f278c36d8cd34b2 = $('<div id="html_627b2402368341a89f278c36d8cd34b2" style="width: 100.0%; height: 100.0%;">Andersonville, Chicago, IL Cluster 1</div>')[0];
+                popup_fe525b4d06a04114a445358419d34212.setContent(html_627b2402368341a89f278c36d8cd34b2);
+            
+
+            circle_marker_d18f4ff1acec4c23977b1b0e6b92ad3b.bindPopup(popup_fe525b4d06a04114a445358419d34212);
+
+            
+        
+    
+            var circle_marker_c7caa98e58554931b1f7a5d0235781ab = L.circleMarker(
+                [32.7495751,-96.91055999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4c50fc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4c50fc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_b8350598820043ea87095cd29d548eed = L.popup({maxWidth: '300'});
+
+            
+                var html_4e1531ca79664959be0d30dddf260bd1 = $('<div id="html_4e1531ca79664959be0d30dddf260bd1" style="width: 100.0%; height: 100.0%;">Arcadia Park, Dallas, TX Cluster 3</div>')[0];
+                popup_b8350598820043ea87095cd29d548eed.setContent(html_4e1531ca79664959be0d30dddf260bd1);
+            
+
+            circle_marker_c7caa98e58554931b1f7a5d0235781ab.bindPopup(popup_b8350598820043ea87095cd29d548eed);
+
+            
+        
+    
+            var circle_marker_63216447b0a74788ad4c427afd194d76 = L.circleMarker(
+                [41.8079,-87.72358510000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_b39874b01d2047fdac62fc96752b269f = L.popup({maxWidth: '300'});
+
+            
+                var html_5ca6e560e08444bcbf4aa03f320d07db = $('<div id="html_5ca6e560e08444bcbf4aa03f320d07db" style="width: 100.0%; height: 100.0%;">Archer Heights, Chicago, IL Cluster 14</div>')[0];
+                popup_b39874b01d2047fdac62fc96752b269f.setContent(html_5ca6e560e08444bcbf4aa03f320d07db);
+            
+
+            circle_marker_63216447b0a74788ad4c427afd194d76.bindPopup(popup_b39874b01d2047fdac62fc96752b269f);
+
+            
+        
+    
+            var circle_marker_d1943e761965467ba77731f87c657ed5 = L.circleMarker(
+                [30.1969209,-81.7562816],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f007669fd0354b1e8b31d68a02cae8f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_808325b338ba45e2b5fec05d6ce6917e = $('<div id="html_808325b338ba45e2b5fec05d6ce6917e" style="width: 100.0%; height: 100.0%;">Argyle, Jacksonville, FL Cluster 1</div>')[0];
+                popup_f007669fd0354b1e8b31d68a02cae8f7.setContent(html_808325b338ba45e2b5fec05d6ce6917e);
+            
+
+            circle_marker_d1943e761965467ba77731f87c657ed5.bindPopup(popup_f007669fd0354b1e8b31d68a02cae8f7);
+
+            
+        
+    
+            var circle_marker_8eb5baf52b924044a87708f334f502b5 = L.circleMarker(
+                [32.815543,-96.8505516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_bb17d861361e475c96b989748718c138 = L.popup({maxWidth: '300'});
+
+            
+                var html_4fcab166eba94b70a8c4caef1c380a28 = $('<div id="html_4fcab166eba94b70a8c4caef1c380a28" style="width: 100.0%; height: 100.0%;">Arlington Park, Dallas, TX Cluster 1</div>')[0];
+                popup_bb17d861361e475c96b989748718c138.setContent(html_4fcab166eba94b70a8c4caef1c380a28);
+            
+
+            circle_marker_8eb5baf52b924044a87708f334f502b5.bindPopup(popup_bb17d861361e475c96b989748718c138);
+
+            
+        
+    
+            var circle_marker_98a7f920aa5b4b24b81c82810b81128a = L.circleMarker(
+                [30.3165143,-81.5588539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_9297c70ede1248699bf3a82f7313b33c = L.popup({maxWidth: '300'});
+
+            
+                var html_9e96c0f92f7544f3bee4c631b952527d = $('<div id="html_9e96c0f92f7544f3bee4c631b952527d" style="width: 100.0%; height: 100.0%;">Arlington, Jacksonville, FL Cluster 1</div>')[0];
+                popup_9297c70ede1248699bf3a82f7313b33c.setContent(html_9e96c0f92f7544f3bee4c631b952527d);
+            
+
+            circle_marker_98a7f920aa5b4b24b81c82810b81128a.bindPopup(popup_9297c70ede1248699bf3a82f7313b33c);
+
+            
+        
+    
+            var circle_marker_1bebb6543ad14849ae388b5a1f992601 = L.circleMarker(
+                [41.8407554,-87.63401859999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_734027498bbd42efbf50838d9004d3de = L.popup({maxWidth: '300'});
+
+            
+                var html_a19fd4f569d94d188c0dd9d5f9de9ca5 = $('<div id="html_a19fd4f569d94d188c0dd9d5f9de9ca5" style="width: 100.0%; height: 100.0%;">Armour Square, Chicago, IL Cluster 14</div>')[0];
+                popup_734027498bbd42efbf50838d9004d3de.setContent(html_a19fd4f569d94d188c0dd9d5f9de9ca5);
+            
+
+            circle_marker_1bebb6543ad14849ae388b5a1f992601.bindPopup(popup_734027498bbd42efbf50838d9004d3de);
+
+            
+        
+    
+            var circle_marker_b6e54383a89d49918a3eed05a9ee3c9b = L.circleMarker(
+                [41.7496899,-87.71200669999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_06e287abb07b45d3b2e9b6824f3606d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a467d5506054c498cef37aa58eaddd1 = $('<div id="html_0a467d5506054c498cef37aa58eaddd1" style="width: 100.0%; height: 100.0%;">Ashburn, Chicago, IL Cluster 0</div>')[0];
+                popup_06e287abb07b45d3b2e9b6824f3606d7.setContent(html_0a467d5506054c498cef37aa58eaddd1);
+            
+
+            circle_marker_b6e54383a89d49918a3eed05a9ee3c9b.bindPopup(popup_06e287abb07b45d3b2e9b6824f3606d7);
+
+            
+        
+    
+            var circle_marker_75a16ffe40e14f39b867b5d9b2e339e1 = L.circleMarker(
+                [41.7433773,-87.6561995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff2914",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff2914",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_dc5d30c2d7234defb964407c960227dd = L.popup({maxWidth: '300'});
+
+            
+                var html_09ee9002a95140718a3ca0057c783a83 = $('<div id="html_09ee9002a95140718a3ca0057c783a83" style="width: 100.0%; height: 100.0%;">Auburn Gresham, Chicago, IL Cluster 19</div>')[0];
+                popup_dc5d30c2d7234defb964407c960227dd.setContent(html_09ee9002a95140718a3ca0057c783a83);
+            
+
+            circle_marker_75a16ffe40e14f39b867b5d9b2e339e1.bindPopup(popup_dc5d30c2d7234defb964407c960227dd);
+
+            
+        
+    
+            var circle_marker_dac188a14aa5449dbbb75d45883779bd = L.circleMarker(
+                [41.7442016,-87.58557569999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_16de3d0835364023a7c5872b7e2d0925 = L.popup({maxWidth: '300'});
+
+            
+                var html_52a8a5e1a6eb40ffbbaea0c5830bbf06 = $('<div id="html_52a8a5e1a6eb40ffbbaea0c5830bbf06" style="width: 100.0%; height: 100.0%;">Avalon Park, Chicago, IL Cluster 4</div>')[0];
+                popup_16de3d0835364023a7c5872b7e2d0925.setContent(html_52a8a5e1a6eb40ffbbaea0c5830bbf06);
+            
+
+            circle_marker_dac188a14aa5449dbbb75d45883779bd.bindPopup(popup_16de3d0835364023a7c5872b7e2d0925);
+
+            
+        
+    
+            var circle_marker_4c7a0a3f07334c84b44b2ad7331fd18f = L.circleMarker(
+                [41.9651348,-87.75257959999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1eb88ef3118545c683872247bc1872e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b4d0fadcf184fe99d95b42472d34542 = $('<div id="html_3b4d0fadcf184fe99d95b42472d34542" style="width: 100.0%; height: 100.0%;">Avondale Gardens, Chicago, IL Cluster 1</div>')[0];
+                popup_1eb88ef3118545c683872247bc1872e8.setContent(html_3b4d0fadcf184fe99d95b42472d34542);
+            
+
+            circle_marker_4c7a0a3f07334c84b44b2ad7331fd18f.bindPopup(popup_1eb88ef3118545c683872247bc1872e8);
+
+            
+        
+    
+            var circle_marker_aa4b20a8fe754155ae61517567ed8028 = L.circleMarker(
+                [41.9415011,-87.70250209999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_94ebdfd41534431e81c50c5274799856 = L.popup({maxWidth: '300'});
+
+            
+                var html_bac13d05ffea4358a5110ea685c7a6c1 = $('<div id="html_bac13d05ffea4358a5110ea685c7a6c1" style="width: 100.0%; height: 100.0%;">Avondale, Chicago, IL Cluster 1</div>')[0];
+                popup_94ebdfd41534431e81c50c5274799856.setContent(html_bac13d05ffea4358a5110ea685c7a6c1);
+            
+
+            circle_marker_aa4b20a8fe754155ae61517567ed8028.bindPopup(popup_94ebdfd41534431e81c50c5274799856);
+
+            
+        
+    
+            var circle_marker_e61b344800f446f3aced8e9a0b8a6503 = L.circleMarker(
+                [30.2967693,-81.7103155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_be7fa3dc57bc4ed189d37cffa6775527 = L.popup({maxWidth: '300'});
+
+            
+                var html_88dd8496705b4530bc644b724727518e = $('<div id="html_88dd8496705b4530bc644b724727518e" style="width: 100.0%; height: 100.0%;">Avondale, Jacksonville, FL Cluster 1</div>')[0];
+                popup_be7fa3dc57bc4ed189d37cffa6775527.setContent(html_88dd8496705b4530bc644b724727518e);
+            
+
+            circle_marker_e61b344800f446f3aced8e9a0b8a6503.bindPopup(popup_be7fa3dc57bc4ed189d37cffa6775527);
+
+            
+        
+    
+            var circle_marker_de629f83b3a74a8cbb11ba86e0bc5b0e = L.circleMarker(
+                [41.8066775,-87.6679765],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f8e0aeaceb6a4667ac598667bbe428ee = L.popup({maxWidth: '300'});
+
+            
+                var html_bce9d60aa19d43c89b333f0454127eed = $('<div id="html_bce9d60aa19d43c89b333f0454127eed" style="width: 100.0%; height: 100.0%;">Back of the Yards, Chicago, IL Cluster 14</div>')[0];
+                popup_f8e0aeaceb6a4667ac598667bbe428ee.setContent(html_bce9d60aa19d43c89b333f0454127eed);
+            
+
+            circle_marker_de629f83b3a74a8cbb11ba86e0bc5b0e.bindPopup(popup_f8e0aeaceb6a4667ac598667bbe428ee);
+
+            
+        
+    
+            var circle_marker_2e7b4df985f74a6186257acd676e27b8 = L.circleMarker(
+                [32.6929806,-117.1367698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_a98ce16e06b34dc4ba40e254255ef4fe = L.popup({maxWidth: '300'});
+
+            
+                var html_d400e6648c944e88aaa333b0c4ed4c65 = $('<div id="html_d400e6648c944e88aaa333b0c4ed4c65" style="width: 100.0%; height: 100.0%;">Barrio Logan, San Diego, CA Cluster 14</div>')[0];
+                popup_a98ce16e06b34dc4ba40e254255ef4fe.setContent(html_d400e6648c944e88aaa333b0c4ed4c65);
+            
+
+            circle_marker_2e7b4df985f74a6186257acd676e27b8.bindPopup(popup_a98ce16e06b34dc4ba40e254255ef4fe);
+
+            
+        
+    
+            var circle_marker_624ebd7c7e3640479ef313d4b3617a7b = L.circleMarker(
+                [32.82424290000001,-117.217637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f53439413b1644aeb0ead4f023909dd4 = L.popup({maxWidth: '300'});
+
+            
+                var html_bca28344866b457fa82563849ec3319f = $('<div id="html_bca28344866b457fa82563849ec3319f" style="width: 100.0%; height: 100.0%;">Bay Ho, San Diego, CA Cluster 14</div>')[0];
+                popup_f53439413b1644aeb0ead4f023909dd4.setContent(html_bca28344866b457fa82563849ec3319f);
+            
+
+            circle_marker_624ebd7c7e3640479ef313d4b3617a7b.bindPopup(popup_f53439413b1644aeb0ead4f023909dd4);
+
+            
+        
+    
+            var circle_marker_3ff043bc1bb848a79b0e5c353e053979 = L.circleMarker(
+                [32.6858257,-117.0382158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_bc829bb91cc844e9a73e1258d1bc95fe = L.popup({maxWidth: '300'});
+
+            
+                var html_5f39b9a10db54d0ab4c56272cc9ef2a6 = $('<div id="html_5f39b9a10db54d0ab4c56272cc9ef2a6" style="width: 100.0%; height: 100.0%;">Bay Terraces, San Diego, CA Cluster 1</div>')[0];
+                popup_bc829bb91cc844e9a73e1258d1bc95fe.setContent(html_5f39b9a10db54d0ab4c56272cc9ef2a6);
+            
+
+            circle_marker_3ff043bc1bb848a79b0e5c353e053979.bindPopup(popup_bc829bb91cc844e9a73e1258d1bc95fe);
+
+            
+        
+    
+            var circle_marker_1f4413f3980f40c3b4a7a42dea973304 = L.circleMarker(
+                [32.7893418,-96.77951530000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_634ed0b224fd425aa4337b6c78a420e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f761dd5365d4c76a81494560dc422e9 = $('<div id="html_6f761dd5365d4c76a81494560dc422e9" style="width: 100.0%; height: 100.0%;">Baylor District, Dallas, TX Cluster 1</div>')[0];
+                popup_634ed0b224fd425aa4337b6c78a420e2.setContent(html_6f761dd5365d4c76a81494560dc422e9);
+            
+
+            circle_marker_1f4413f3980f40c3b4a7a42dea973304.bindPopup(popup_634ed0b224fd425aa4337b6c78a420e2);
+
+            
+        
+    
+            var circle_marker_b15fd4efc60c4e14902135e84b3d17b8 = L.circleMarker(
+                [30.2367222,-81.5591584],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_320762c3103c454bb70b871dc7e123bc = L.popup({maxWidth: '300'});
+
+            
+                var html_2d08e8acfc244b3bbd9c52392306f6a9 = $('<div id="html_2d08e8acfc244b3bbd9c52392306f6a9" style="width: 100.0%; height: 100.0%;">Baymeadows, Jacksonville, FL Cluster 1</div>')[0];
+                popup_320762c3103c454bb70b871dc7e123bc.setContent(html_2d08e8acfc244b3bbd9c52392306f6a9);
+            
+
+            circle_marker_b15fd4efc60c4e14902135e84b3d17b8.bindPopup(popup_320762c3103c454bb70b871dc7e123bc);
+
+            
+        
+    
+            var circle_marker_5ca2878eab7e497ebf7fd94edbd73ddb = L.circleMarker(
+                [32.82944150000001,-96.63374979999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_240b4bb8c6bc45518eeb71e3cce8679f = L.popup({maxWidth: '300'});
+
+            
+                var html_e1823cb0bdbf4433b901e5b03e5f93ed = $('<div id="html_e1823cb0bdbf4433b901e5b03e5f93ed" style="width: 100.0%; height: 100.0%;">Beckley Club Estates, Dallas, TX Cluster 4</div>')[0];
+                popup_240b4bb8c6bc45518eeb71e3cce8679f.setContent(html_e1823cb0bdbf4433b901e5b03e5f93ed);
+            
+
+            circle_marker_5ca2878eab7e497ebf7fd94edbd73ddb.bindPopup(popup_240b4bb8c6bc45518eeb71e3cce8679f);
+
+            
+        
+    
+            var circle_marker_c4404044f0c6448b96c97e0cf94d70bb = L.circleMarker(
+                [41.9274631,-87.7783025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_bffe651e5f604a90850782b3615729e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_15064f148dfd439dabf6982de5a7b42d = $('<div id="html_15064f148dfd439dabf6982de5a7b42d" style="width: 100.0%; height: 100.0%;">Belmont Central, Chicago, IL Cluster 14</div>')[0];
+                popup_bffe651e5f604a90850782b3615729e4.setContent(html_15064f148dfd439dabf6982de5a7b42d);
+            
+
+            circle_marker_c4404044f0c6448b96c97e0cf94d70bb.bindPopup(popup_bffe651e5f604a90850782b3615729e4);
+
+            
+        
+    
+            var circle_marker_c4b0202ba6eb449eb39ae15b8aa28220 = L.circleMarker(
+                [41.9353935,-87.7296983],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_3836673e96334441b44d03612abc729f = L.popup({maxWidth: '300'});
+
+            
+                var html_72aa61503cf34f568bec345ba6a25c2a = $('<div id="html_72aa61503cf34f568bec345ba6a25c2a" style="width: 100.0%; height: 100.0%;">Belmont Gardens, Chicago, IL Cluster 14</div>')[0];
+                popup_3836673e96334441b44d03612abc729f.setContent(html_72aa61503cf34f568bec345ba6a25c2a);
+            
+
+            circle_marker_c4b0202ba6eb449eb39ae15b8aa28220.bindPopup(popup_3836673e96334441b44d03612abc729f);
+
+            
+        
+    
+            var circle_marker_d029334eff7343b69c05a955263ab441 = L.circleMarker(
+                [41.9430001,-87.8177243],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f3d4fcaa75b94cc5bbf1c67302822aeb = L.popup({maxWidth: '300'});
+
+            
+                var html_c69bd8e6189741ffb11a156ed9235c19 = $('<div id="html_c69bd8e6189741ffb11a156ed9235c19" style="width: 100.0%; height: 100.0%;">Belmont Heights, Chicago, IL Cluster 1</div>')[0];
+                popup_f3d4fcaa75b94cc5bbf1c67302822aeb.setContent(html_c69bd8e6189741ffb11a156ed9235c19);
+            
+
+            circle_marker_d029334eff7343b69c05a955263ab441.bindPopup(popup_f3d4fcaa75b94cc5bbf1c67302822aeb);
+
+            
+        
+    
+            var circle_marker_44ef561002f34dc7bbfc86ea5bbde194 = L.circleMarker(
+                [32.7693056,-96.8368582],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_638ef4a60d0f40bf9109ff49dfcc38e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_62264d2ddb5d4f2d8b65f4a10587f3c2 = $('<div id="html_62264d2ddb5d4f2d8b65f4a10587f3c2" style="width: 100.0%; height: 100.0%;">Belmont, Dallas, TX Cluster 1</div>')[0];
+                popup_638ef4a60d0f40bf9109ff49dfcc38e4.setContent(html_62264d2ddb5d4f2d8b65f4a10587f3c2);
+            
+
+            circle_marker_44ef561002f34dc7bbfc86ea5bbde194.bindPopup(popup_638ef4a60d0f40bf9109ff49dfcc38e4);
+
+            
+        
+    
+            var circle_marker_ef93a04832844e6aa5e50b4daacafaaf = L.circleMarker(
+                [32.9799017,-96.815513],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#f9bb66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f9bb66",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d4a65390464c48b1b7c1815a0c4bd56f = L.popup({maxWidth: '300'});
+
+            
+                var html_c02c4767fac742b9a29d8740558f35da = $('<div id="html_c02c4767fac742b9a29d8740558f35da" style="width: 100.0%; height: 100.0%;">Bent Tree, Dallas, TX Cluster 15</div>')[0];
+                popup_d4a65390464c48b1b7c1815a0c4bd56f.setContent(html_c02c4767fac742b9a29d8740558f35da);
+            
+
+            circle_marker_ef93a04832844e6aa5e50b4daacafaaf.bindPopup(popup_d4a65390464c48b1b7c1815a0c4bd56f);
+
+            
+        
+    
+            var circle_marker_5bec9ad93b5747d7b5906ef4c1002add = L.circleMarker(
+                [41.6809765,-87.6831485],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_75d82d3baa274d5fab3ee4d199f22d08 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9c73e69abc34e0aa906e337e68b780b = $('<div id="html_f9c73e69abc34e0aa906e337e68b780b" style="width: 100.0%; height: 100.0%;">Beverly Woods, Chicago, IL Cluster 4</div>')[0];
+                popup_75d82d3baa274d5fab3ee4d199f22d08.setContent(html_f9c73e69abc34e0aa906e337e68b780b);
+            
+
+            circle_marker_5bec9ad93b5747d7b5906ef4c1002add.bindPopup(popup_75d82d3baa274d5fab3ee4d199f22d08);
+
+            
+        
+    
+            var circle_marker_b151dbbee19541d3b2325a1ff929ed59 = L.circleMarker(
+                [41.7171204,-87.6761796],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_a6b061e5901c4ba1957d451e17b06d7d = L.popup({maxWidth: '300'});
+
+            
+                var html_f3276044a26042cda581b2c71cf82a0c = $('<div id="html_f3276044a26042cda581b2c71cf82a0c" style="width: 100.0%; height: 100.0%;">Beverly, Chicago, IL Cluster 1</div>')[0];
+                popup_a6b061e5901c4ba1957d451e17b06d7d.setContent(html_f3276044a26042cda581b2c71cf82a0c);
+            
+
+            circle_marker_b151dbbee19541d3b2325a1ff929ed59.bindPopup(popup_a6b061e5901c4ba1957d451e17b06d7d);
+
+            
+        
+    
+            var circle_marker_bea9f2e5279e4d9491a9f43f99780432 = L.circleMarker(
+                [41.9721668,-87.7986628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_720c29c98902418b8328c9f8a4b014de = L.popup({maxWidth: '300'});
+
+            
+                var html_c7c0f83b82044208b8ace7f81fba14b5 = $('<div id="html_c7c0f83b82044208b8ace7f81fba14b5" style="width: 100.0%; height: 100.0%;">Big Oaks, Chicago, IL Cluster 1</div>')[0];
+                popup_720c29c98902418b8328c9f8a4b014de.setContent(html_c7c0f83b82044208b8ace7f81fba14b5);
+            
+
+            circle_marker_bea9f2e5279e4d9491a9f43f99780432.bindPopup(popup_720c29c98902418b8328c9f8a4b014de);
+
+            
+        
+    
+            var circle_marker_a281b45c87c54a7ea7f09362f3cf24f4 = L.circleMarker(
+                [32.7923929,-117.1529458],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff793e",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff793e",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_965d4de632034e15a64e760d12bf8588 = L.popup({maxWidth: '300'});
+
+            
+                var html_117eaa4ff63348159fb3221951217514 = $('<div id="html_117eaa4ff63348159fb3221951217514" style="width: 100.0%; height: 100.0%;">Birdland, San Diego, CA Cluster 17</div>')[0];
+                popup_965d4de632034e15a64e760d12bf8588.setContent(html_117eaa4ff63348159fb3221951217514);
+            
+
+            circle_marker_a281b45c87c54a7ea7f09362f3cf24f4.bindPopup(popup_965d4de632034e15a64e760d12bf8588);
+
+            
+        
+    
+            var circle_marker_301dc72624744ea7a66393b7bdffaa18 = L.circleMarker(
+                [32.5444156,-117.0301235],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_ddb44c596c1143e6bdb5db41b9a961ba = L.popup({maxWidth: '300'});
+
+            
+                var html_b72a354b0ee04fd28f1d4019d07a0e55 = $('<div id="html_b72a354b0ee04fd28f1d4019d07a0e55" style="width: 100.0%; height: 100.0%;">Border, San Diego, CA Cluster 14</div>')[0];
+                popup_ddb44c596c1143e6bdb5db41b9a961ba.setContent(html_b72a354b0ee04fd28f1d4019d07a0e55);
+            
+
+            circle_marker_301dc72624744ea7a66393b7bdffaa18.bindPopup(popup_ddb44c596c1143e6bdb5db41b9a961ba);
+
+            
+        
+    
+            var circle_marker_e1408081971c4bb18d083b9d973ce08b = L.circleMarker(
+                [32.896589,-96.757252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_ce18d5c8a45347dbb4ac387ed3d7d24d = L.popup({maxWidth: '300'});
+
+            
+                var html_265f69837056417fa1686df5f240591b = $('<div id="html_265f69837056417fa1686df5f240591b" style="width: 100.0%; height: 100.0%;">Boundbrook Oaks Estates, Dallas, TX Cluster 0</div>')[0];
+                popup_ce18d5c8a45347dbb4ac387ed3d7d24d.setContent(html_265f69837056417fa1686df5f240591b);
+            
+
+            circle_marker_e1408081971c4bb18d083b9d973ce08b.bindPopup(popup_ce18d5c8a45347dbb4ac387ed3d7d24d);
+
+            
+        
+    
+            var circle_marker_3e4287aeb13341498c3ef80d4e8a4ee3 = L.circleMarker(
+                [41.9439979,-87.6473853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d449624b98524484880225096d71a0da = L.popup({maxWidth: '300'});
+
+            
+                var html_2bbfc2927f0b4d91a859b08313c3c3f6 = $('<div id="html_2bbfc2927f0b4d91a859b08313c3c3f6" style="width: 100.0%; height: 100.0%;">Boystown, Chicago, IL Cluster 1</div>')[0];
+                popup_d449624b98524484880225096d71a0da.setContent(html_2bbfc2927f0b4d91a859b08313c3c3f6);
+            
+
+            circle_marker_3e4287aeb13341498c3ef80d4e8a4ee3.bindPopup(popup_d449624b98524484880225096d71a0da);
+
+            
+        
+    
+            var circle_marker_e59c63926e434c2d81b2f88029ce3c32 = L.circleMarker(
+                [41.8364162,-87.6486609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_a15836945fe947debb568d61a05271c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1f0b00bb18e4db28ec39d2b85ae70d6 = $('<div id="html_d1f0b00bb18e4db28ec39d2b85ae70d6" style="width: 100.0%; height: 100.0%;">Bridgeport, Chicago, IL Cluster 14</div>')[0];
+                popup_a15836945fe947debb568d61a05271c7.setContent(html_d1f0b00bb18e4db28ec39d2b85ae70d6);
+            
+
+            circle_marker_e59c63926e434c2d81b2f88029ce3c32.bindPopup(popup_a15836945fe947debb568d61a05271c7);
+
+            
+        
+    
+            var circle_marker_72c05137830b4a3d82b7e2e0b4d34717 = L.circleMarker(
+                [41.8166444,-87.6167744],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6c971a8e16e34e50b717a93300b8a594 = L.popup({maxWidth: '300'});
+
+            
+                var html_781b562d7e334a218879b95f35ccbb86 = $('<div id="html_781b562d7e334a218879b95f35ccbb86" style="width: 100.0%; height: 100.0%;">Bronzeville, Chicago, IL Cluster 1</div>')[0];
+                popup_6c971a8e16e34e50b717a93300b8a594.setContent(html_781b562d7e334a218879b95f35ccbb86);
+            
+
+            circle_marker_72c05137830b4a3d82b7e2e0b4d34717.bindPopup(popup_6c971a8e16e34e50b717a93300b8a594);
+
+            
+        
+    
+            var circle_marker_d79b538fbda84580aa6cab89b30a3860 = L.circleMarker(
+                [30.30244979999999,-97.75389349999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_64f8e632ba7f461681b6d088c86d14a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_32df37a77f3a4645a223bdc852fde5a0 = $('<div id="html_32df37a77f3a4645a223bdc852fde5a0" style="width: 100.0%; height: 100.0%;">Bryker Woods, Austin, TX Cluster 1</div>')[0];
+                popup_64f8e632ba7f461681b6d088c86d14a9.setContent(html_32df37a77f3a4645a223bdc852fde5a0);
+            
+
+            circle_marker_d79b538fbda84580aa6cab89b30a3860.bindPopup(popup_64f8e632ba7f461681b6d088c86d14a9);
+
+            
+        
+    
+            var circle_marker_e184c733d7d64152848b5a8a15e38ac4 = L.circleMarker(
+                [32.7919577,-96.69999279999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_46d60de84222435b8c926f2c0efd80e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_49fe7a0d0bea46229599d79a9551db24 = $('<div id="html_49fe7a0d0bea46229599d79a9551db24" style="width: 100.0%; height: 100.0%;">Buckner Terrace, Dallas, TX Cluster 14</div>')[0];
+                popup_46d60de84222435b8c926f2c0efd80e8.setContent(html_49fe7a0d0bea46229599d79a9551db24);
+            
+
+            circle_marker_e184c733d7d64152848b5a8a15e38ac4.bindPopup(popup_46d60de84222435b8c926f2c0efd80e8);
+
+            
+        
+    
+            var circle_marker_bfae5d47d4ac4bbfb5dbaa4df52ced32 = L.circleMarker(
+                [41.9227067,-87.68027479999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7b9bdefabbe048b5ad9fc50f60073232 = L.popup({maxWidth: '300'});
+
+            
+                var html_f27c10ad64a3413eae4e173a85ba74b7 = $('<div id="html_f27c10ad64a3413eae4e173a85ba74b7" style="width: 100.0%; height: 100.0%;">Bucktown, Chicago, IL Cluster 1</div>')[0];
+                popup_7b9bdefabbe048b5ad9fc50f60073232.setContent(html_f27c10ad64a3413eae4e173a85ba74b7);
+            
+
+            circle_marker_bfae5d47d4ac4bbfb5dbaa4df52ced32.bindPopup(popup_7b9bdefabbe048b5ad9fc50f60073232);
+
+            
+        
+    
+            var circle_marker_31c57d308f5740299c2a22fa9bffb6cc = L.circleMarker(
+                [41.9793856,-87.6963835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1622dc4ad9ed47198efd1d0a2edeefdc = L.popup({maxWidth: '300'});
+
+            
+                var html_aba5ae5b4594403f8b656ff2ad07155c = $('<div id="html_aba5ae5b4594403f8b656ff2ad07155c" style="width: 100.0%; height: 100.0%;">Budlong Woods, Chicago, IL Cluster 1</div>')[0];
+                popup_1622dc4ad9ed47198efd1d0a2edeefdc.setContent(html_aba5ae5b4594403f8b656ff2ad07155c);
+            
+
+            circle_marker_31c57d308f5740299c2a22fa9bffb6cc.bindPopup(popup_1622dc4ad9ed47198efd1d0a2edeefdc);
+
+            
+        
+    
+            var circle_marker_6878669115874a96ae15f10a7ee60fa4 = L.circleMarker(
+                [41.95767559999999,-87.650714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6e062ffd703441a7ba8f78e51d32d2c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_93a97dae657a49c9a82625231aafdf7a = $('<div id="html_93a97dae657a49c9a82625231aafdf7a" style="width: 100.0%; height: 100.0%;">Buena Park, Chicago, IL Cluster 1</div>')[0];
+                popup_6e062ffd703441a7ba8f78e51d32d2c1.setContent(html_93a97dae657a49c9a82625231aafdf7a);
+            
+
+            circle_marker_6878669115874a96ae15f10a7ee60fa4.bindPopup(popup_6e062ffd703441a7ba8f78e51d32d2c1);
+
+            
+        
+    
+            var circle_marker_51316d02dd384b18b56ccb0770c71267 = L.circleMarker(
+                [32.7316217,-117.127946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d75ded8f654c4401950eb09efe5420be = L.popup({maxWidth: '300'});
+
+            
+                var html_501702e3a77349e1a9bf85ef444f8a25 = $('<div id="html_501702e3a77349e1a9bf85ef444f8a25" style="width: 100.0%; height: 100.0%;">Burlingame, San Diego, CA Cluster 1</div>')[0];
+                popup_d75ded8f654c4401950eb09efe5420be.setContent(html_501702e3a77349e1a9bf85ef444f8a25);
+            
+
+            circle_marker_51316d02dd384b18b56ccb0770c71267.bindPopup(popup_d75ded8f654c4401950eb09efe5420be);
+
+            
+        
+    
+            var circle_marker_cfc43b4b03e74c77949c18a0470ac396 = L.circleMarker(
+                [41.7281304,-87.5964182],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c2ea8c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c2ea8c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d7f8181b3605411da62ca00ed0f6a6c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bcde9613ee0424c8ae560890b9bb7da = $('<div id="html_0bcde9613ee0424c8ae560890b9bb7da" style="width: 100.0%; height: 100.0%;">Burnside, Chicago, IL Cluster 13</div>')[0];
+                popup_d7f8181b3605411da62ca00ed0f6a6c5.setContent(html_0bcde9613ee0424c8ae560890b9bb7da);
+            
+
+            circle_marker_cfc43b4b03e74c77949c18a0470ac396.bindPopup(popup_d7f8181b3605411da62ca00ed0f6a6c5);
+
+            
+        
+    
+            var circle_marker_b45a126ed66546b5a14e20f31da11f0a = L.circleMarker(
+                [41.9010905,-87.64146360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1c65f2f5b7734a6d9db300ec12c3a802 = L.popup({maxWidth: '300'});
+
+            
+                var html_85e97582525c45d2900de40d238c526c = $('<div id="html_85e97582525c45d2900de40d238c526c" style="width: 100.0%; height: 100.0%;">Cabrini–Green, Chicago, IL Cluster 1</div>')[0];
+                popup_1c65f2f5b7734a6d9db300ec12c3a802.setContent(html_85e97582525c45d2900de40d238c526c);
+            
+
+            circle_marker_b45a126ed66546b5a14e20f31da11f0a.bindPopup(popup_1c65f2f5b7734a6d9db300ec12c3a802);
+
+            
+        
+    
+            var circle_marker_3ac727f65aab456fb7bdf63946f445b6 = L.circleMarker(
+                [32.9805356,-117.0735241],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_48d5e94cc2a742f48f0fc22c9fc1912c = L.popup({maxWidth: '300'});
+
+            
+                var html_b9d087b9992d418cbf525da4454943d9 = $('<div id="html_b9d087b9992d418cbf525da4454943d9" style="width: 100.0%; height: 100.0%;">Carmel Mountain Ranch, San Diego, CA Cluster 1</div>')[0];
+                popup_48d5e94cc2a742f48f0fc22c9fc1912c.setContent(html_b9d087b9992d418cbf525da4454943d9);
+            
+
+            circle_marker_3ac727f65aab456fb7bdf63946f445b6.bindPopup(popup_48d5e94cc2a742f48f0fc22c9fc1912c);
+
+            
+        
+    
+            var circle_marker_67b284cf6df64f9897b8c2463ee05b40 = L.circleMarker(
+                [32.9398273,-117.2029363],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_440e2482044e4ffda86313ce138bf605 = L.popup({maxWidth: '300'});
+
+            
+                var html_044b589ed47f460d905e443ca93667a4 = $('<div id="html_044b589ed47f460d905e443ca93667a4" style="width: 100.0%; height: 100.0%;">Carmel Valley, San Diego, CA Cluster 1</div>')[0];
+                popup_440e2482044e4ffda86313ce138bf605.setContent(html_044b589ed47f460d905e443ca93667a4);
+            
+
+            circle_marker_67b284cf6df64f9897b8c2463ee05b40.bindPopup(popup_440e2482044e4ffda86313ce138bf605);
+
+            
+        
+    
+            var circle_marker_a1b7766b785242aab6030f29e3647ef8 = L.circleMarker(
+                [32.8400815,-96.7571387],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_0a634172189a4db988beac89e4d61e80 = L.popup({maxWidth: '300'});
+
+            
+                var html_12669ff1271d4d9d9b3ac57401ecc5d3 = $('<div id="html_12669ff1271d4d9d9b3ac57401ecc5d3" style="width: 100.0%; height: 100.0%;">Caruth Terrace, Dallas, TX Cluster 1</div>')[0];
+                popup_0a634172189a4db988beac89e4d61e80.setContent(html_12669ff1271d4d9d9b3ac57401ecc5d3);
+            
+
+            circle_marker_a1b7766b785242aab6030f29e3647ef8.bindPopup(popup_0a634172189a4db988beac89e4d61e80);
+
+            
+        
+    
+            var circle_marker_2be88fc284cd4e8ea52801245d19173a = L.circleMarker(
+                [32.8295,-96.69856809999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_164edbdfc8884363a79be68e88286060 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d9478e49f114f2c874f6294ffa86748 = $('<div id="html_2d9478e49f114f2c874f6294ffa86748" style="width: 100.0%; height: 100.0%;">Casa Linda Estates, Dallas, TX Cluster 1</div>')[0];
+                popup_164edbdfc8884363a79be68e88286060.setContent(html_2d9478e49f114f2c874f6294ffa86748);
+            
+
+            circle_marker_2be88fc284cd4e8ea52801245d19173a.bindPopup(popup_164edbdfc8884363a79be68e88286060);
+
+            
+        
+    
+            var circle_marker_1babadb3510b4eb69eab2eab8843c292 = L.circleMarker(
+                [30.307765,-97.7194354],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_df8ffc9502414d7dbdaafc3caff2fde0 = L.popup({maxWidth: '300'});
+
+            
+                var html_7251189ee49c4d818470db023b4dee01 = $('<div id="html_7251189ee49c4d818470db023b4dee01" style="width: 100.0%; height: 100.0%;">Caswell Heights, Austin, TX Cluster 1</div>')[0];
+                popup_df8ffc9502414d7dbdaafc3caff2fde0.setContent(html_7251189ee49c4d818470db023b4dee01);
+            
+
+            circle_marker_1babadb3510b4eb69eab2eab8843c292.bindPopup(popup_df8ffc9502414d7dbdaafc3caff2fde0);
+
+            
+        
+    
+            var circle_marker_a77a0225c951410b9d41f49cadcc5c37 = L.circleMarker(
+                [32.7200994,-96.80374119999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#56f7ca",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#56f7ca",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_206eb8f5e2294a5eaf902bde99dcc2c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e957aa0bd6e464fafd41fd5101397d7 = $('<div id="html_4e957aa0bd6e464fafd41fd5101397d7" style="width: 100.0%; height: 100.0%;">Cedar Crest, Dallas, TX Cluster 9</div>')[0];
+                popup_206eb8f5e2294a5eaf902bde99dcc2c5.setContent(html_4e957aa0bd6e464fafd41fd5101397d7);
+            
+
+            circle_marker_a77a0225c951410b9d41f49cadcc5c37.bindPopup(popup_206eb8f5e2294a5eaf902bde99dcc2c5);
+
+            
+        
+    
+            var circle_marker_45a1c8c94bc34756a09549614a4041c3 = L.circleMarker(
+                [30.253614,-81.7561379],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_eabd9dd2c7ce47c09e6d77e8aea7d4f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea4a9a2c8a294432ba5f86e362977443 = $('<div id="html_ea4a9a2c8a294432ba5f86e362977443" style="width: 100.0%; height: 100.0%;">Cedar Hills, Jacksonville, FL Cluster 4</div>')[0];
+                popup_eabd9dd2c7ce47c09e6d77e8aea7d4f5.setContent(html_ea4a9a2c8a294432ba5f86e362977443);
+            
+
+            circle_marker_45a1c8c94bc34756a09549614a4041c3.bindPopup(popup_eabd9dd2c7ce47c09e6d77e8aea7d4f5);
+
+            
+        
+    
+            var circle_marker_ea691ecb6dcf4b66996e0aab1031fbd5 = L.circleMarker(
+                [32.7734812,-96.66319039999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#20d5e1",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#20d5e1",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_87afd886920b44ceb49d83eacecbd83b = L.popup({maxWidth: '300'});
+
+            
+                var html_37157ed830d94eb484c52cb630527fb4 = $('<div id="html_37157ed830d94eb484c52cb630527fb4" style="width: 100.0%; height: 100.0%;">Cedar Run, Dallas, TX Cluster 7</div>')[0];
+                popup_87afd886920b44ceb49d83eacecbd83b.setContent(html_37157ed830d94eb484c52cb630527fb4);
+            
+
+            circle_marker_ea691ecb6dcf4b66996e0aab1031fbd5.bindPopup(popup_87afd886920b44ceb49d83eacecbd83b);
+
+            
+        
+    
+            var circle_marker_cc4e9d3ae3df40a8b731afef95645c7e = L.circleMarker(
+                [41.8646077,-87.62153819999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d65d4f57fea643fe8cc24ba1672014c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_60b41d09cf7a4c71ba6b9bcbdfe77b91 = $('<div id="html_60b41d09cf7a4c71ba6b9bcbdfe77b91" style="width: 100.0%; height: 100.0%;">Central Station, Chicago, IL Cluster 1</div>')[0];
+                popup_d65d4f57fea643fe8cc24ba1672014c6.setContent(html_60b41d09cf7a4c71ba6b9bcbdfe77b91);
+            
+
+            circle_marker_cc4e9d3ae3df40a8b731afef95645c7e.bindPopup(popup_d65d4f57fea643fe8cc24ba1672014c6);
+
+            
+        
+    
+            var circle_marker_30fe8ffc0d874f558459968770cc2ea5 = L.circleMarker(
+                [41.7718392,-87.6931785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_0b88bcfe6e0242e98be05ed289beb946 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd696a93f6804245a322982f3b8fb892 = $('<div id="html_cd696a93f6804245a322982f3b8fb892" style="width: 100.0%; height: 100.0%;">Chicago Lawn, Chicago, IL Cluster 4</div>')[0];
+                popup_0b88bcfe6e0242e98be05ed289beb946.setContent(html_cd696a93f6804245a322982f3b8fb892);
+            
+
+            circle_marker_30fe8ffc0d874f558459968770cc2ea5.bindPopup(popup_0b88bcfe6e0242e98be05ed289beb946);
+
+            
+        
+    
+            var circle_marker_308997866a5649fd8f9394d26c17ebb0 = L.circleMarker(
+                [41.7763868,-87.7519502],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#6629fe",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#6629fe",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_0d8e200825564dd298e1bd038795339e = L.popup({maxWidth: '300'});
+
+            
+                var html_091bf39a232f47f68a89bc301059dc9e = $('<div id="html_091bf39a232f47f68a89bc301059dc9e" style="width: 100.0%; height: 100.0%;">Chrysler Village, Chicago, IL Cluster 2</div>')[0];
+                popup_0d8e200825564dd298e1bd038795339e.setContent(html_091bf39a232f47f68a89bc301059dc9e);
+            
+
+            circle_marker_308997866a5649fd8f9394d26c17ebb0.bindPopup(popup_0d8e200825564dd298e1bd038795339e);
+
+            
+        
+    
+            var circle_marker_c4a4173988e443c7b079ece28d14a210 = L.circleMarker(
+                [32.7402624,-117.1009481],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#56f7ca",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#56f7ca",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_2bf1aacc4fbc4df2ae8963c49ba3f406 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a559a66e75947e3956d4b52f0223fa9 = $('<div id="html_0a559a66e75947e3956d4b52f0223fa9" style="width: 100.0%; height: 100.0%;">City Heights, San Diego, CA Cluster 9</div>')[0];
+                popup_2bf1aacc4fbc4df2ae8963c49ba3f406.setContent(html_0a559a66e75947e3956d4b52f0223fa9);
+            
+
+            circle_marker_c4a4173988e443c7b079ece28d14a210.bindPopup(popup_2bf1aacc4fbc4df2ae8963c49ba3f406);
+
+            
+        
+    
+            var circle_marker_3aabd6456dd04e17826c6b1b46291c9a = L.circleMarker(
+                [32.770779,-117.0697667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6466a0ada98d4d9ca1ce80cbf5fc345b = L.popup({maxWidth: '300'});
+
+            
+                var html_141860375e184a80869803697c092088 = $('<div id="html_141860375e184a80869803697c092088" style="width: 100.0%; height: 100.0%;">College Area, San Diego, CA Cluster 1</div>')[0];
+                popup_6466a0ada98d4d9ca1ce80cbf5fc345b.setContent(html_141860375e184a80869803697c092088);
+            
+
+            circle_marker_3aabd6456dd04e17826c6b1b46291c9a.bindPopup(popup_6466a0ada98d4d9ca1ce80cbf5fc345b);
+
+            
+        
+    
+            var circle_marker_892b22f52afc4b2f822a5b52c0977664 = L.circleMarker(
+                [41.718128,-87.5964313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c2ea8c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c2ea8c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_20c8f2e823f04a3e98787dbd82c73050 = L.popup({maxWidth: '300'});
+
+            
+                var html_08862a89b4bf49e0bee46bbf380761f5 = $('<div id="html_08862a89b4bf49e0bee46bbf380761f5" style="width: 100.0%; height: 100.0%;">Cottage Grove Heights, Chicago, IL Cluster 13</div>')[0];
+                popup_20c8f2e823f04a3e98787dbd82c73050.setContent(html_08862a89b4bf49e0bee46bbf380761f5);
+            
+
+            circle_marker_892b22f52afc4b2f822a5b52c0977664.bindPopup(popup_20c8f2e823f04a3e98787dbd82c73050);
+
+            
+        
+    
+            var circle_marker_31bf5d673bce42c9b0a6b1c6890d5b3d = L.circleMarker(
+                [32.9105334,-96.81754819999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_24d0948228454940a1b4f2dd98cad611 = L.popup({maxWidth: '300'});
+
+            
+                var html_8adcae67b44e41daaf6e30baea319c91 = $('<div id="html_8adcae67b44e41daaf6e30baea319c91" style="width: 100.0%; height: 100.0%;">Country Forest, Dallas, TX Cluster 1</div>')[0];
+                popup_24d0948228454940a1b4f2dd98cad611.setContent(html_8adcae67b44e41daaf6e30baea319c91);
+            
+
+            circle_marker_31bf5d673bce42c9b0a6b1c6890d5b3d.bindPopup(popup_24d0948228454940a1b4f2dd98cad611);
+
+            
+        
+    
+            var circle_marker_f2f10224222c4a0c99905d6e57445d0b = L.circleMarker(
+                [32.7897314,-96.79826159999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_8de9df25980b4cc1b6fbe0e2c5791326 = L.popup({maxWidth: '300'});
+
+            
+                var html_31fbbaf22bb14a7eaf6d2ee1fb7f5ec1 = $('<div id="html_31fbbaf22bb14a7eaf6d2ee1fb7f5ec1" style="width: 100.0%; height: 100.0%;">Dallas Arts District, Dallas, TX Cluster 1</div>')[0];
+                popup_8de9df25980b4cc1b6fbe0e2c5791326.setContent(html_31fbbaf22bb14a7eaf6d2ee1fb7f5ec1);
+            
+
+            circle_marker_f2f10224222c4a0c99905d6e57445d0b.bindPopup(popup_8de9df25980b4cc1b6fbe0e2c5791326);
+
+            
+        
+    
+            var circle_marker_4b53c1feef7b42068adb2cd300ea5470 = L.circleMarker(
+                [32.7843924,-96.7801849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7ab48d45c83b41ffaaebe4d517a65f17 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e094e6e5a6d434abf414460171e0de4 = $('<div id="html_0e094e6e5a6d434abf414460171e0de4" style="width: 100.0%; height: 100.0%;">Deep Ellum, Dallas, TX Cluster 1</div>')[0];
+                popup_7ab48d45c83b41ffaaebe4d517a65f17.setContent(html_0e094e6e5a6d434abf414460171e0de4);
+            
+
+            circle_marker_4b53c1feef7b42068adb2cd300ea5470.bindPopup(popup_7ab48d45c83b41ffaaebe4d517a65f17);
+
+            
+        
+    
+            var circle_marker_3d295709c89e44c7aeaa48858f3f6250 = L.circleMarker(
+                [32.7868431,-117.0646976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#72febb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#72febb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_e5b85e34b00f4550b9234612880447ad = L.popup({maxWidth: '300'});
+
+            
+                var html_1ea68bedce8f4f74bb7d04db22b322b3 = $('<div id="html_1ea68bedce8f4f74bb7d04db22b322b3" style="width: 100.0%; height: 100.0%;">Del Cerro, San Diego, CA Cluster 10</div>')[0];
+                popup_e5b85e34b00f4550b9234612880447ad.setContent(html_1ea68bedce8f4f74bb7d04db22b322b3);
+            
+
+            circle_marker_3d295709c89e44c7aeaa48858f3f6250.bindPopup(popup_e5b85e34b00f4550b9234612880447ad);
+
+            
+        
+    
+            var circle_marker_1f7d6104d2b343eba20f8577015ac967 = L.circleMarker(
+                [32.9483783,-117.2608701],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_41b338fe5fb548ab988e2d0f94cf3662 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4c209d17bfc436dac74efdccb38fdad = $('<div id="html_d4c209d17bfc436dac74efdccb38fdad" style="width: 100.0%; height: 100.0%;">Del Mar Heights, San Diego, CA Cluster 1</div>')[0];
+                popup_41b338fe5fb548ab988e2d0f94cf3662.setContent(html_d4c209d17bfc436dac74efdccb38fdad);
+            
+
+            circle_marker_1f7d6104d2b343eba20f8577015ac967.bindPopup(popup_41b338fe5fb548ab988e2d0f94cf3662);
+
+            
+        
+    
+            var circle_marker_b78a913a9a1145deb39ab786de5718b9 = L.circleMarker(
+                [30.4238141,-81.77323349999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_c2dabefa53924a34a7ad903b7aaf4992 = L.popup({maxWidth: '300'});
+
+            
+                var html_18b36e35958346e89e56bde31ef5a586 = $('<div id="html_18b36e35958346e89e56bde31ef5a586" style="width: 100.0%; height: 100.0%;">Dinsmore, Jacksonville, FL Cluster 4</div>')[0];
+                popup_c2dabefa53924a34a7ad903b7aaf4992.setContent(html_18b36e35958346e89e56bde31ef5a586);
+            
+
+            circle_marker_b78a913a9a1145deb39ab786de5718b9.bindPopup(popup_c2dabefa53924a34a7ad903b7aaf4992);
+
+            
+        
+    
+            var circle_marker_4df1357446544b3e8ae7dcbeb26e6caa = L.circleMarker(
+                [32.76502,-96.7327755],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff9b52",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff9b52",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d995abeec4c2470a849c29654a1ff630 = L.popup({maxWidth: '300'});
+
+            
+                var html_326e5c4741744cc18e0dffe1428fcf31 = $('<div id="html_326e5c4741744cc18e0dffe1428fcf31" style="width: 100.0%; height: 100.0%;">Dixon Circle, Dallas, TX Cluster 16</div>')[0];
+                popup_d995abeec4c2470a849c29654a1ff630.setContent(html_326e5c4741744cc18e0dffe1428fcf31);
+            
+
+            circle_marker_4df1357446544b3e8ae7dcbeb26e6caa.bindPopup(popup_d995abeec4c2470a849c29654a1ff630);
+
+            
+        
+    
+            var circle_marker_f7f2b26fad83413287b2f1f052a25ab4 = L.circleMarker(
+                [32.7181664,-117.1632389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_84be347f821c46b7acdaf149c613ad31 = L.popup({maxWidth: '300'});
+
+            
+                var html_895d7d15b27e49f882916b19db779db1 = $('<div id="html_895d7d15b27e49f882916b19db779db1" style="width: 100.0%; height: 100.0%;">Downtown (Columbia, San Diego, CA Cluster 1</div>')[0];
+                popup_84be347f821c46b7acdaf149c613ad31.setContent(html_895d7d15b27e49f882916b19db779db1);
+            
+
+            circle_marker_f7f2b26fad83413287b2f1f052a25ab4.bindPopup(popup_84be347f821c46b7acdaf149c613ad31);
+
+            
+        
+    
+            var circle_marker_77ae27456399416c897d48b1a1bcbe16 = L.circleMarker(
+                [30.2729209,-97.74438630000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_01dc88ea065945d287082c3b3cf44502 = L.popup({maxWidth: '300'});
+
+            
+                var html_24d4f2dfa97b46088acba3dd18ba6f07 = $('<div id="html_24d4f2dfa97b46088acba3dd18ba6f07" style="width: 100.0%; height: 100.0%;">Downtown Austin, Austin, TX Cluster 1</div>')[0];
+                popup_01dc88ea065945d287082c3b3cf44502.setContent(html_24d4f2dfa97b46088acba3dd18ba6f07);
+            
+
+            circle_marker_77ae27456399416c897d48b1a1bcbe16.bindPopup(popup_01dc88ea065945d287082c3b3cf44502);
+
+            
+        
+    
+            var circle_marker_b17801fb6df24d7bb2b286c98906696c = L.circleMarker(
+                [30.34531429999999,-81.6742659],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_fe5a38cd11e746f2a1debfee1ab90600 = L.popup({maxWidth: '300'});
+
+            
+                var html_04e7f40b4d534bc283676e9988ce3cde = $('<div id="html_04e7f40b4d534bc283676e9988ce3cde" style="width: 100.0%; height: 100.0%;">Durkeeville, Jacksonville, FL Cluster 1</div>')[0];
+                popup_fe5a38cd11e746f2a1debfee1ab90600.setContent(html_04e7f40b4d534bc283676e9988ce3cde);
+            
+
+            circle_marker_b17801fb6df24d7bb2b286c98906696c.bindPopup(popup_fe5a38cd11e746f2a1debfee1ab90600);
+
+            
+        
+    
+            var circle_marker_efe89730a7804bb994a856cca1bf2d31 = L.circleMarker(
+                [32.7848517,-96.9008376],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4c50fc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4c50fc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_80ff198c3e3c4fa8ae8d170fd0bfa5e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f4df71c74af4877b9b16f21081bd1c2 = $('<div id="html_0f4df71c74af4877b9b16f21081bd1c2" style="width: 100.0%; height: 100.0%;">Eagle Ford, Dallas, TX Cluster 3</div>')[0];
+                popup_80ff198c3e3c4fa8ae8d170fd0bfa5e3.setContent(html_0f4df71c74af4877b9b16f21081bd1c2);
+            
+
+            circle_marker_efe89730a7804bb994a856cca1bf2d31.bindPopup(popup_80ff198c3e3c4fa8ae8d170fd0bfa5e3);
+
+            
+        
+    
+            var circle_marker_42b57a12f67e45949bf6d25517bd84ae = L.circleMarker(
+                [41.8810352,-87.70118459999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1fcb334daa5a49ac905906099462ca82 = L.popup({maxWidth: '300'});
+
+            
+                var html_7e38af6e6f444b9e8a588610aab8333d = $('<div id="html_7e38af6e6f444b9e8a588610aab8333d" style="width: 100.0%; height: 100.0%;">East Garfield Park, Chicago, IL Cluster 4</div>')[0];
+                popup_1fcb334daa5a49ac905906099462ca82.setContent(html_7e38af6e6f444b9e8a588610aab8333d);
+            
+
+            circle_marker_42b57a12f67e45949bf6d25517bd84ae.bindPopup(popup_1fcb334daa5a49ac905906099462ca82);
+
+            
+        
+    
+            var circle_marker_47efad4bf102476c8523b81c542602cd = L.circleMarker(
+                [41.79627809999999,-87.58530429999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1124b3cbadd5469d98ca99a1c77cf212 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdcf3d9d1ac649608d9ca469d3291964 = $('<div id="html_bdcf3d9d1ac649608d9ca469d3291964" style="width: 100.0%; height: 100.0%;">East Hyde Park, Chicago, IL Cluster 1</div>')[0];
+                popup_1124b3cbadd5469d98ca99a1c77cf212.setContent(html_bdcf3d9d1ac649608d9ca469d3291964);
+            
+
+            circle_marker_47efad4bf102476c8523b81c542602cd.bindPopup(popup_1124b3cbadd5469d98ca99a1c77cf212);
+
+            
+        
+    
+            var circle_marker_ab64b8151671499398af8b02743a2396 = L.circleMarker(
+                [41.8998114,-87.67229379999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_5955cc9179e94fd0bd872cd2f025a7f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_44567937865b41c2a8773821f3eeb65e = $('<div id="html_44567937865b41c2a8773821f3eeb65e" style="width: 100.0%; height: 100.0%;">East Village, Chicago, IL Cluster 1</div>')[0];
+                popup_5955cc9179e94fd0bd872cd2f025a7f7.setContent(html_44567937865b41c2a8773821f3eeb65e);
+            
+
+            circle_marker_ab64b8151671499398af8b02743a2396.bindPopup(popup_5955cc9179e94fd0bd872cd2f025a7f7);
+
+            
+        
+    
+            var circle_marker_7eb2656deb5246fcbaa6dbbbb2fe038f = L.circleMarker(
+                [30.2903708,-97.72647909999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f453a6322d324030b5ec420ec052112d = L.popup({maxWidth: '300'});
+
+            
+                var html_1f98dbbe96974941bc4a31fea3aaf741 = $('<div id="html_1f98dbbe96974941bc4a31fea3aaf741" style="width: 100.0%; height: 100.0%;">Eastwoods, Austin, TX Cluster 1</div>')[0];
+                popup_f453a6322d324030b5ec420ec052112d.setContent(html_1f98dbbe96974941bc4a31fea3aaf741);
+            
+
+            circle_marker_7eb2656deb5246fcbaa6dbbbb2fe038f.bindPopup(popup_f453a6322d324030b5ec420ec052112d);
+
+            
+        
+    
+            var circle_marker_f3e76873ccb0430fb757d2aff5f61b17 = L.circleMarker(
+                [41.9973418,-87.7621724],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_8032c5dbea484cb788cb5d779b802d80 = L.popup({maxWidth: '300'});
+
+            
+                var html_bca5e734b2eb49fbae9b3056611e8958 = $('<div id="html_bca5e734b2eb49fbae9b3056611e8958" style="width: 100.0%; height: 100.0%;">Edgebrook, Chicago, IL Cluster 1</div>')[0];
+                popup_8032c5dbea484cb788cb5d779b802d80.setContent(html_bca5e734b2eb49fbae9b3056611e8958);
+            
+
+            circle_marker_f3e76873ccb0430fb757d2aff5f61b17.bindPopup(popup_8032c5dbea484cb788cb5d779b802d80);
+
+            
+        
+    
+            var circle_marker_34d1df69fb9045d4b6cc70813bb8ad2c = L.circleMarker(
+                [32.7295328,-96.810914],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_82cb15047ef143cc8fbb84183e59a768 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7f94c583c814627bccca376a655421c = $('<div id="html_d7f94c583c814627bccca376a655421c" style="width: 100.0%; height: 100.0%;">Edgemont Park, Dallas, TX Cluster 14</div>')[0];
+                popup_82cb15047ef143cc8fbb84183e59a768.setContent(html_d7f94c583c814627bccca376a655421c);
+            
+
+            circle_marker_34d1df69fb9045d4b6cc70813bb8ad2c.bindPopup(popup_82cb15047ef143cc8fbb84183e59a768);
+
+            
+        
+    
+            var circle_marker_de6995cbc7f14d979170bea80d27aa9e = L.circleMarker(
+                [41.9836852,-87.66011410000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_488c6014f71348138ad8367fabd3fba6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9d3a6efdc364342b613aac521079ca0 = $('<div id="html_f9d3a6efdc364342b613aac521079ca0" style="width: 100.0%; height: 100.0%;">Edgewater, Chicago, IL Cluster 1</div>')[0];
+                popup_488c6014f71348138ad8367fabd3fba6.setContent(html_f9d3a6efdc364342b613aac521079ca0);
+            
+
+            circle_marker_de6995cbc7f14d979170bea80d27aa9e.bindPopup(popup_488c6014f71348138ad8367fabd3fba6);
+
+            
+        
+    
+            var circle_marker_9fd152bd0095440eb6f78712dfe1a233 = L.circleMarker(
+                [42.0054486,-87.81329009999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7a22bc2fff03492f9c841344a6fc3d56 = L.popup({maxWidth: '300'});
+
+            
+                var html_a016baf4991e4a2386d156e2d69105d1 = $('<div id="html_a016baf4991e4a2386d156e2d69105d1" style="width: 100.0%; height: 100.0%;">Edison Park, Chicago, IL Cluster 1</div>')[0];
+                popup_7a22bc2fff03492f9c841344a6fc3d56.setContent(html_a016baf4991e4a2386d156e2d69105d1);
+            
+
+            circle_marker_9fd152bd0095440eb6f78712dfe1a233.bindPopup(popup_7a22bc2fff03492f9c841344a6fc3d56);
+
+            
+        
+    
+            var circle_marker_76c351b93e0e490dbf7aa2b49de1e754 = L.circleMarker(
+                [32.5884561,-117.0970596],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f2c29dddb3dc41e19eedc0aed811e541 = L.popup({maxWidth: '300'});
+
+            
+                var html_c3d1e2fd155743008d0b7a6ecf570c6d = $('<div id="html_c3d1e2fd155743008d0b7a6ecf570c6d" style="width: 100.0%; height: 100.0%;">Egger Highlands, San Diego, CA Cluster 14</div>')[0];
+                popup_f2c29dddb3dc41e19eedc0aed811e541.setContent(html_c3d1e2fd155743008d0b7a6ecf570c6d);
+            
+
+            circle_marker_76c351b93e0e490dbf7aa2b49de1e754.bindPopup(popup_f2c29dddb3dc41e19eedc0aed811e541);
+
+            
+        
+    
+            var circle_marker_0dacedaedccd40d3a5ccfc96b93fc2d1 = L.circleMarker(
+                [32.7195315,-96.6662384],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_fb48e48d8edc46548392f4a9e155d11d = L.popup({maxWidth: '300'});
+
+            
+                var html_c6980af5a973441990ad5cd5e2602540 = $('<div id="html_c6980af5a973441990ad5cd5e2602540" style="width: 100.0%; height: 100.0%;">Elam, Dallas, TX Cluster 4</div>')[0];
+                popup_fb48e48d8edc46548392f4a9e155d11d.setContent(html_c6980af5a973441990ad5cd5e2602540);
+            
+
+            circle_marker_0dacedaedccd40d3a5ccfc96b93fc2d1.bindPopup(popup_fb48e48d8edc46548392f4a9e155d11d);
+
+            
+        
+    
+            var circle_marker_763709ac33a84193a7d5c12f9aa9abff = L.circleMarker(
+                [32.7261179,-96.8480185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_94a4b149d9364de4b035e1cfa845a78e = L.popup({maxWidth: '300'});
+
+            
+                var html_c5c490fffce547c2a73dcb858f7e8e08 = $('<div id="html_c5c490fffce547c2a73dcb858f7e8e08" style="width: 100.0%; height: 100.0%;">Elmwood, Dallas, TX Cluster 14</div>')[0];
+                popup_94a4b149d9364de4b035e1cfa845a78e.setContent(html_c5c490fffce547c2a73dcb858f7e8e08);
+            
+
+            circle_marker_763709ac33a84193a7d5c12f9aa9abff.bindPopup(popup_94a4b149d9364de4b035e1cfa845a78e);
+
+            
+        
+    
+            var circle_marker_c0dee9f33a3b46d995f5ac5205515ea6 = L.circleMarker(
+                [41.775305,-87.6416419],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_94e91e2aaa4141ca97d657c032d59b0f = L.popup({maxWidth: '300'});
+
+            
+                var html_323582de703b40f6a4c44a23f494fd6e = $('<div id="html_323582de703b40f6a4c44a23f494fd6e" style="width: 100.0%; height: 100.0%;">Englewood, Chicago, IL Cluster 4</div>')[0];
+                popup_94e91e2aaa4141ca97d657c032d59b0f.setContent(html_323582de703b40f6a4c44a23f494fd6e);
+            
+
+            circle_marker_c0dee9f33a3b46d995f5ac5205515ea6.bindPopup(popup_94e91e2aaa4141ca97d657c032d59b0f);
+
+            
+        
+    
+            var circle_marker_a49997eb85d64f9bb59c6e3a9e90a8d3 = L.circleMarker(
+                [41.8783073,-87.7111039],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6c07317378904bc2926b29ab7b650f64 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ba4520f78de479698c8190d43b34af1 = $('<div id="html_0ba4520f78de479698c8190d43b34af1" style="width: 100.0%; height: 100.0%;">Fifth City, Chicago, IL Cluster 4</div>')[0];
+                popup_6c07317378904bc2926b29ab7b650f64.setContent(html_0ba4520f78de479698c8190d43b34af1);
+            
+
+            circle_marker_a49997eb85d64f9bb59c6e3a9e90a8d3.bindPopup(popup_6c07317378904bc2926b29ab7b650f64);
+
+            
+        
+    
+            var circle_marker_ff36500b5e754de3ac8d39f839151ace = L.circleMarker(
+                [41.9145056,-87.7925095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_4664c46a03f64ac9a98488594dadc638 = L.popup({maxWidth: '300'});
+
+            
+                var html_f3377c570b5b4d98811cae6be48484a7 = $('<div id="html_f3377c570b5b4d98811cae6be48484a7" style="width: 100.0%; height: 100.0%;">Galewood, Chicago, IL Cluster 14</div>')[0];
+                popup_4664c46a03f64ac9a98488594dadc638.setContent(html_f3377c570b5b4d98811cae6be48484a7);
+            
+
+            circle_marker_ff36500b5e754de3ac8d39f839151ace.bindPopup(popup_4664c46a03f64ac9a98488594dadc638);
+
+            
+        
+    
+            var circle_marker_698a6414d7fa4b8d9812f6281695371f = L.circleMarker(
+                [30.4407937,-81.698988],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_3db91de44c964f4380c17c85a8936003 = L.popup({maxWidth: '300'});
+
+            
+                var html_8e152934c7b44450afac9ea60e5682a8 = $('<div id="html_8e152934c7b44450afac9ea60e5682a8" style="width: 100.0%; height: 100.0%;">Garden City, Jacksonville, FL Cluster 4</div>')[0];
+                popup_3db91de44c964f4380c17c85a8936003.setContent(html_8e152934c7b44450afac9ea60e5682a8);
+            
+
+            circle_marker_698a6414d7fa4b8d9812f6281695371f.bindPopup(popup_3db91de44c964f4380c17c85a8936003);
+
+            
+        
+    
+            var circle_marker_4143d6f4ae894edf8c745016140e3a33 = L.circleMarker(
+                [33.0513673,-97.07018049999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_883e5b9f6a584f9a8b27e45e099f05a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_34946dbf9772429cb5717dc35361a900 = $('<div id="html_34946dbf9772429cb5717dc35361a900" style="width: 100.0%; height: 100.0%;">Gaston Park, Dallas, TX Cluster 0</div>')[0];
+                popup_883e5b9f6a584f9a8b27e45e099f05a1.setContent(html_34946dbf9772429cb5717dc35361a900);
+            
+
+            circle_marker_4143d6f4ae894edf8c745016140e3a33.bindPopup(popup_883e5b9f6a584f9a8b27e45e099f05a1);
+
+            
+        
+    
+            var circle_marker_c085acc40bc14b3dae3f2150e2580e71 = L.circleMarker(
+                [32.6795299,-96.83232319999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c2ea8c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c2ea8c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_bd2ab00a2e3349299c72d9b46d6d0dbf = L.popup({maxWidth: '300'});
+
+            
+                var html_1a8f06d32e4240a78371053b0627b7ab = $('<div id="html_1a8f06d32e4240a78371053b0627b7ab" style="width: 100.0%; height: 100.0%;">Glen Oaks, Dallas, TX Cluster 13</div>')[0];
+                popup_bd2ab00a2e3349299c72d9b46d6d0dbf.setContent(html_1a8f06d32e4240a78371053b0627b7ab);
+            
+
+            circle_marker_c085acc40bc14b3dae3f2150e2580e71.bindPopup(popup_bd2ab00a2e3349299c72d9b46d6d0dbf);
+
+            
+        
+    
+            var circle_marker_0973d7bd7d9d4aba8cae1293a15c7128 = L.circleMarker(
+                [32.7165006,-117.1367698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_86c84532120d4329817c68d418c25f90 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ba709013e6543888b5e1de2d316cf89 = $('<div id="html_9ba709013e6543888b5e1de2d316cf89" style="width: 100.0%; height: 100.0%;">Golden Hill, San Diego, CA Cluster 14</div>')[0];
+                popup_86c84532120d4329817c68d418c25f90.setContent(html_9ba709013e6543888b5e1de2d316cf89);
+            
+
+            circle_marker_0973d7bd7d9d4aba8cae1293a15c7128.bindPopup(popup_86c84532120d4329817c68d418c25f90);
+
+            
+        
+    
+            var circle_marker_68b8884278b34178ae3d173f09ccaf7c = L.circleMarker(
+                [41.87856439999999,-87.6470504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_4a0e953928a5433c9f259925a982dd13 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a1bf510591d4e44a1d4bcedd6f8e779 = $('<div id="html_4a1bf510591d4e44a1d4bcedd6f8e779" style="width: 100.0%; height: 100.0%;">Greektown, Chicago, IL Cluster 1</div>')[0];
+                popup_4a0e953928a5433c9f259925a982dd13.setContent(html_4a1bf510591d4e44a1d4bcedd6f8e779);
+            
+
+            circle_marker_68b8884278b34178ae3d173f09ccaf7c.bindPopup(popup_4a0e953928a5433c9f259925a982dd13);
+
+            
+        
+    
+            var circle_marker_b1289ce3efaf4358bad4b4036de3719a = L.circleMarker(
+                [32.8266551,-96.7775073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_e95bb2257496418987cb6df578e35049 = L.popup({maxWidth: '300'});
+
+            
+                var html_13fef198419342bc9fe7dd9d325e7263 = $('<div id="html_13fef198419342bc9fe7dd9d325e7263" style="width: 100.0%; height: 100.0%;">Greenland Hills, Dallas, TX Cluster 1</div>')[0];
+                popup_e95bb2257496418987cb6df578e35049.setContent(html_13fef198419342bc9fe7dd9d325e7263);
+            
+
+            circle_marker_b1289ce3efaf4358bad4b4036de3719a.bindPopup(popup_e95bb2257496418987cb6df578e35049);
+
+            
+        
+    
+            var circle_marker_40dee30fd80b4c0bb293f81a59ced10d = L.circleMarker(
+                [41.6554963,-87.54586239999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_457d87ece08b4bf2a0a781d4604c1504 = L.popup({maxWidth: '300'});
+
+            
+                var html_f4bce1e5d4f34b16b62418dabaf76ad2 = $('<div id="html_f4bce1e5d4f34b16b62418dabaf76ad2" style="width: 100.0%; height: 100.0%;">Hegewisch, Chicago, IL Cluster 4</div>')[0];
+                popup_457d87ece08b4bf2a0a781d4604c1504.setContent(html_f4bce1e5d4f34b16b62418dabaf76ad2);
+            
+
+            circle_marker_40dee30fd80b4c0bb293f81a59ced10d.bindPopup(popup_457d87ece08b4bf2a0a781d4604c1504);
+
+            
+        
+    
+            var circle_marker_81a9e9b4634047b7a28ce9971a24dd40 = L.circleMarker(
+                [32.8706792,-96.69382250000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_9319357221314c9696d52ed7f4a03dc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f8a78eb2f1c4db29d22f43822423032 = $('<div id="html_2f8a78eb2f1c4db29d22f43822423032" style="width: 100.0%; height: 100.0%;">Highland Meadows, Dallas, TX Cluster 14</div>')[0];
+                popup_9319357221314c9696d52ed7f4a03dc7.setContent(html_2f8a78eb2f1c4db29d22f43822423032);
+            
+
+            circle_marker_81a9e9b4634047b7a28ce9971a24dd40.bindPopup(popup_9319357221314c9696d52ed7f4a03dc7);
+
+            
+        
+    
+            var circle_marker_1bca9596808d417691a8bb04e4bcf459 = L.circleMarker(
+                [32.8259702,-96.81918309999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1c0ff88709d54d1e8938413dd7f9825e = L.popup({maxWidth: '300'});
+
+            
+                var html_6ee5faa277f945b8a347acae2b35eb98 = $('<div id="html_6ee5faa277f945b8a347acae2b35eb98" style="width: 100.0%; height: 100.0%;">Highlands West, Dallas, TX Cluster 1</div>')[0];
+                popup_1c0ff88709d54d1e8938413dd7f9825e.setContent(html_6ee5faa277f945b8a347acae2b35eb98);
+            
+
+            circle_marker_1bca9596808d417691a8bb04e4bcf459.bindPopup(popup_1c0ff88709d54d1e8938413dd7f9825e);
+
+            
+        
+    
+            var circle_marker_8958f38670794101a262328354cce20e = L.circleMarker(
+                [32.7435314,-117.1580924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_be57014cf1cf4193a7c9ff3f62142b19 = L.popup({maxWidth: '300'});
+
+            
+                var html_99ed64faf19c4a01a870d374b73cfbac = $('<div id="html_99ed64faf19c4a01a870d374b73cfbac" style="width: 100.0%; height: 100.0%;">Hillcrest (Marston Hills), San Diego, CA Cluster 1</div>')[0];
+                popup_be57014cf1cf4193a7c9ff3f62142b19.setContent(html_99ed64faf19c4a01a870d374b73cfbac);
+            
+
+            circle_marker_8958f38670794101a262328354cce20e.bindPopup(popup_be57014cf1cf4193a7c9ff3f62142b19);
+
+            
+        
+    
+            var circle_marker_a269e76aeebf472daa98316ebc30870d = L.circleMarker(
+                [32.9271078,-96.53723529999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5029",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5029",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_b2fb7988d78e4120976d52710b8a8ad9 = L.popup({maxWidth: '300'});
+
+            
+                var html_35c1e279e3be4c15bb9db3b3c698f3d7 = $('<div id="html_35c1e279e3be4c15bb9db3b3c698f3d7" style="width: 100.0%; height: 100.0%;">Hillridge, Dallas, TX Cluster 18</div>')[0];
+                popup_b2fb7988d78e4120976d52710b8a8ad9.setContent(html_35c1e279e3be4c15bb9db3b3c698f3d7);
+            
+
+            circle_marker_a269e76aeebf472daa98316ebc30870d.bindPopup(popup_b2fb7988d78e4120976d52710b8a8ad9);
+
+            
+        
+    
+            var circle_marker_732fde6e4bc3402fbee76093761af27d = L.circleMarker(
+                [32.8063685,-96.7401249],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#07bbea",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#07bbea",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_fd42115d54834913918cc82ee056a0be = L.popup({maxWidth: '300'});
+
+            
+                var html_cb0a702f377b464fbea079bd91fbc00f = $('<div id="html_cb0a702f377b464fbea079bd91fbc00f" style="width: 100.0%; height: 100.0%;">Hollywood Heights, Dallas, TX Cluster 6</div>')[0];
+                popup_fd42115d54834913918cc82ee056a0be.setContent(html_cb0a702f377b464fbea079bd91fbc00f);
+            
+
+            circle_marker_732fde6e4bc3402fbee76093761af27d.bindPopup(popup_fd42115d54834913918cc82ee056a0be);
+
+            
+        
+    
+            var circle_marker_50cc3ec2d885441887743c2ffe0c04bf = L.circleMarker(
+                [41.9867885,-87.7232855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_3b54f0638f5249a9aeb419a47264bac4 = L.popup({maxWidth: '300'});
+
+            
+                var html_0fa9a8225553401ab9bbbdd5a84a8228 = $('<div id="html_0fa9a8225553401ab9bbbdd5a84a8228" style="width: 100.0%; height: 100.0%;">Hollywood Park, Chicago, IL Cluster 0</div>')[0];
+                popup_3b54f0638f5249a9aeb419a47264bac4.setContent(html_0fa9a8225553401ab9bbbdd5a84a8228);
+            
+
+            circle_marker_50cc3ec2d885441887743c2ffe0c04bf.bindPopup(popup_3b54f0638f5249a9aeb419a47264bac4);
+
+            
+        
+    
+            var circle_marker_c5cbe403d9924bfb9b2f9ed6b1b9c492 = L.circleMarker(
+                [41.8990752,-87.721293],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1288c2edf5c848d9b920bd4cbcfd20cf = L.popup({maxWidth: '300'});
+
+            
+                var html_a7deb4065d1546308958d287e9e4cb7e = $('<div id="html_a7deb4065d1546308958d287e9e4cb7e" style="width: 100.0%; height: 100.0%;">Humboldt Park, Chicago, IL Cluster 0</div>')[0];
+                popup_1288c2edf5c848d9b920bd4cbcfd20cf.setContent(html_a7deb4065d1546308958d287e9e4cb7e);
+            
+
+            circle_marker_c5cbe403d9924bfb9b2f9ed6b1b9c492.bindPopup(popup_1288c2edf5c848d9b920bd4cbcfd20cf);
+
+            
+        
+    
+            var circle_marker_ba41bfa537454c3999ebf424624f303b = L.circleMarker(
+                [41.7947665,-87.59167529999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_eef21cf1507c400aa569054fbe9f0e58 = L.popup({maxWidth: '300'});
+
+            
+                var html_94568d3e42dc42d9bb0419264e9c26f7 = $('<div id="html_94568d3e42dc42d9bb0419264e9c26f7" style="width: 100.0%; height: 100.0%;">Hyde Park, Chicago, IL Cluster 1</div>')[0];
+                popup_eef21cf1507c400aa569054fbe9f0e58.setContent(html_94568d3e42dc42d9bb0419264e9c26f7);
+            
+
+            circle_marker_ba41bfa537454c3999ebf424624f303b.bindPopup(popup_eef21cf1507c400aa569054fbe9f0e58);
+
+            
+        
+    
+            var circle_marker_5bb58d25b92044f19f4567478178e32e = L.circleMarker(
+                [41.768781,-87.5778935],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_ccae17f381eb4160acd4a111a20b917c = L.popup({maxWidth: '300'});
+
+            
+                var html_da0602d25efa4f649e7e7fca073d381c = $('<div id="html_da0602d25efa4f649e7e7fca073d381c" style="width: 100.0%; height: 100.0%;">Jackson Park Highlands, Chicago, IL Cluster 1</div>')[0];
+                popup_ccae17f381eb4160acd4a111a20b917c.setContent(html_da0602d25efa4f649e7e7fca073d381c);
+            
+
+            circle_marker_5bb58d25b92044f19f4567478178e32e.bindPopup(popup_ccae17f381eb4160acd4a111a20b917c);
+
+            
+        
+    
+            var circle_marker_af862c61da93430ba6cbefdf9d186457 = L.circleMarker(
+                [32.7417198,-116.9114137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#f9bb66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#f9bb66",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_951ccc1186c843da857c6ef07c6bffe5 = L.popup({maxWidth: '300'});
+
+            
+                var html_123bf354f4dc4b218bcb147876af5b89 = $('<div id="html_123bf354f4dc4b218bcb147876af5b89" style="width: 100.0%; height: 100.0%;">Jamacha, San Diego, CA Cluster 15</div>')[0];
+                popup_951ccc1186c843da857c6ef07c6bffe5.setContent(html_123bf354f4dc4b218bcb147876af5b89);
+            
+
+            circle_marker_af862c61da93430ba6cbefdf9d186457.bindPopup(popup_951ccc1186c843da857c6ef07c6bffe5);
+
+            
+        
+    
+            var circle_marker_38425de7873d463cafbdedeeb6bb18db = L.circleMarker(
+                [32.8283909,-117.1441227],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_261f885017814887b644c35ea19be7b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_033f8ea2007f451998ce17228f0b4a5f = $('<div id="html_033f8ea2007f451998ce17228f0b4a5f" style="width: 100.0%; height: 100.0%;">Kearny Mesa, San Diego, CA Cluster 1</div>')[0];
+                popup_261f885017814887b644c35ea19be7b1.setContent(html_033f8ea2007f451998ce17228f0b4a5f);
+            
+
+            circle_marker_38425de7873d463cafbdedeeb6bb18db.bindPopup(popup_261f885017814887b644c35ea19be7b1);
+
+            
+        
+    
+            var circle_marker_dca1254e7505473d9dbf1b9d54e6440f = L.circleMarker(
+                [32.7630182,-96.8225599],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_bbdef5b39d8442548783ebd13fd93065 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f5433acda5f496faa65c97569caaa0e = $('<div id="html_1f5433acda5f496faa65c97569caaa0e" style="width: 100.0%; height: 100.0%;">Kessler Park Estates, Dallas, TX Cluster 1</div>')[0];
+                popup_bbdef5b39d8442548783ebd13fd93065.setContent(html_1f5433acda5f496faa65c97569caaa0e);
+            
+
+            circle_marker_dca1254e7505473d9dbf1b9d54e6440f.bindPopup(popup_bbdef5b39d8442548783ebd13fd93065);
+
+            
+        
+    
+            var circle_marker_b95195490f104c45ba4584a9688c3315 = L.circleMarker(
+                [32.6715211,-96.6158262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3dead5",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3dead5",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f18ceb163306411aa3374a3859aac372 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a982dba3a734438b0c0b9d171b566fa = $('<div id="html_8a982dba3a734438b0c0b9d171b566fa" style="width: 100.0%; height: 100.0%;">Kleberg, Dallas, TX Cluster 8</div>')[0];
+                popup_f18ceb163306411aa3374a3859aac372.setContent(html_8a982dba3a734438b0c0b9d171b566fa);
+            
+
+            circle_marker_b95195490f104c45ba4584a9688c3315.bindPopup(popup_f18ceb163306411aa3374a3859aac372);
+
+            
+        
+    
+            var circle_marker_2fc8afcafe764c30a3a0113f12b45853 = L.circleMarker(
+                [32.8328112,-117.2712717],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6ca0c268b77947539f6bbe9d94df0825 = L.popup({maxWidth: '300'});
+
+            
+                var html_e15092b2a71c40349c5e934797a919c3 = $('<div id="html_e15092b2a71c40349c5e934797a919c3" style="width: 100.0%; height: 100.0%;">La Jolla, San Diego, CA Cluster 1</div>')[0];
+                popup_6ca0c268b77947539f6bbe9d94df0825.setContent(html_e15092b2a71c40349c5e934797a919c3);
+            
+
+            circle_marker_2fc8afcafe764c30a3a0113f12b45853.bindPopup(popup_6ca0c268b77947539f6bbe9d94df0825);
+
+            
+        
+    
+            var circle_marker_c9870fb3889345e9abcb6ed74db9452c = L.circleMarker(
+                [34.0522342,-118.2436849],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_de320c9dcdf948389a3815b95203d7cd = L.popup({maxWidth: '300'});
+
+            
+                var html_bd275856a4384e5da948e2fc85f57a1d = $('<div id="html_bd275856a4384e5da948e2fc85f57a1d" style="width: 100.0%; height: 100.0%;">La L&#39;aceate, Dallas, TX Cluster 1</div>')[0];
+                popup_de320c9dcdf948389a3815b95203d7cd.setContent(html_bd275856a4384e5da948e2fc85f57a1d);
+            
+
+            circle_marker_c9870fb3889345e9abcb6ed74db9452c.bindPopup(popup_de320c9dcdf948389a3815b95203d7cd);
+
+            
+        
+    
+            var circle_marker_537a6a5cbcdb4c8698e702d0dbd78079 = L.circleMarker(
+                [32.9796716,-96.7637345],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d462fe88c1b04a889c6192f01891ee78 = L.popup({maxWidth: '300'});
+
+            
+                var html_339e82c213134605889691319a40d92b = $('<div id="html_339e82c213134605889691319a40d92b" style="width: 100.0%; height: 100.0%;">Lake Park Estates, Dallas, TX Cluster 1</div>')[0];
+                popup_d462fe88c1b04a889c6192f01891ee78.setContent(html_339e82c213134605889691319a40d92b);
+            
+
+            circle_marker_537a6a5cbcdb4c8698e702d0dbd78079.bindPopup(popup_d462fe88c1b04a889c6192f01891ee78);
+
+            
+        
+    
+            var circle_marker_99029095180944d2a0d459a4fd06bca4 = L.circleMarker(
+                [30.2635999,-81.6391263],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_4b274e18bb614ab888fc31bb237c53dd = L.popup({maxWidth: '300'});
+
+            
+                var html_71765d062c05408f9d3ac8a68ab1ce1d = $('<div id="html_71765d062c05408f9d3ac8a68ab1ce1d" style="width: 100.0%; height: 100.0%;">Lakewood, Jacksonville, FL Cluster 1</div>')[0];
+                popup_4b274e18bb614ab888fc31bb237c53dd.setContent(html_71765d062c05408f9d3ac8a68ab1ce1d);
+            
+
+            circle_marker_99029095180944d2a0d459a4fd06bca4.bindPopup(popup_4b274e18bb614ab888fc31bb237c53dd);
+
+            
+        
+    
+            var circle_marker_939932e062dd42cbaea05101406e9818 = L.circleMarker(
+                [32.6912208,-96.87313929999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff9b52",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff9b52",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_fcc30ee083da4b4b900c5154fcc486f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ea6689e917c46578b16b18fce385ff7 = $('<div id="html_8ea6689e917c46578b16b18fce385ff7" style="width: 100.0%; height: 100.0%;">Ledbetter Gardens, Dallas, TX Cluster 16</div>')[0];
+                popup_fcc30ee083da4b4b900c5154fcc486f7.setContent(html_8ea6689e917c46578b16b18fce385ff7);
+            
+
+            circle_marker_939932e062dd42cbaea05101406e9818.bindPopup(popup_fcc30ee083da4b4b900c5154fcc486f7);
+
+            
+        
+    
+            var circle_marker_0ab4e0d44ea2433fbc8ef5ee33ffd2d1 = L.circleMarker(
+                [41.9254701,-87.64877829999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_feade21459f64b71a0940cdccf3bdb35 = L.popup({maxWidth: '300'});
+
+            
+                var html_b763ce5eebf0441bb8800a8157e365d4 = $('<div id="html_b763ce5eebf0441bb8800a8157e365d4" style="width: 100.0%; height: 100.0%;">Lincoln Park, Chicago, IL Cluster 1</div>')[0];
+                popup_feade21459f64b71a0940cdccf3bdb35.setContent(html_b763ce5eebf0441bb8800a8157e365d4);
+            
+
+            circle_marker_0ab4e0d44ea2433fbc8ef5ee33ffd2d1.bindPopup(popup_feade21459f64b71a0940cdccf3bdb35);
+
+            
+        
+    
+            var circle_marker_671ed833e5534888bd538d40bb39b8d8 = L.circleMarker(
+                [41.86954009999999,-87.6511328],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_2e231863521d4d88a6d6f661a51bb01a = L.popup({maxWidth: '300'});
+
+            
+                var html_656ff76526b84231804da88be2702621 = $('<div id="html_656ff76526b84231804da88be2702621" style="width: 100.0%; height: 100.0%;">Little Italy, Chicago, IL Cluster 1</div>')[0];
+                popup_2e231863521d4d88a6d6f661a51bb01a.setContent(html_656ff76526b84231804da88be2702621);
+            
+
+            circle_marker_671ed833e5534888bd538d40bb39b8d8.bindPopup(popup_2e231863521d4d88a6d6f661a51bb01a);
+
+            
+        
+    
+            var circle_marker_63ca58f8913b4804af17ccf33b2c798d = L.circleMarker(
+                [41.8445273,-87.7050446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_59588d65503e49a1b658ce297ff4d134 = L.popup({maxWidth: '300'});
+
+            
+                var html_c587306e9376437692b1784537756e6f = $('<div id="html_c587306e9376437692b1784537756e6f" style="width: 100.0%; height: 100.0%;">Little Village, Chicago, IL Cluster 14</div>')[0];
+                popup_59588d65503e49a1b658ce297ff4d134.setContent(html_c587306e9376437692b1784537756e6f);
+            
+
+            circle_marker_63ca58f8913b4804af17ccf33b2c798d.bindPopup(popup_59588d65503e49a1b658ce297ff4d134);
+
+            
+        
+    
+            var circle_marker_5f1a8e7629784092966806e35f1fa408 = L.circleMarker(
+                [41.894809,-87.6242142],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_b5591a0a53444669bfeee2c903147add = L.popup({maxWidth: '300'});
+
+            
+                var html_bbf1a56db8ad4a25a1d1cbc74dd598ca = $('<div id="html_bbf1a56db8ad4a25a1d1cbc74dd598ca" style="width: 100.0%; height: 100.0%;">Magnificent Mile, Chicago, IL Cluster 1</div>')[0];
+                popup_b5591a0a53444669bfeee2c903147add.setContent(html_bbf1a56db8ad4a25a1d1cbc74dd598ca);
+            
+
+            circle_marker_5f1a8e7629784092966806e35f1fa408.bindPopup(popup_b5591a0a53444669bfeee2c903147add);
+
+            
+        
+    
+            var circle_marker_c969ba0308b248afb8175e2958169115 = L.circleMarker(
+                [30.1527497,-81.65282189999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_97d93a3ebbe34eefa53c76f4571cdcb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_73df0ce5c9bf43bd927e4f477c832d0d = $('<div id="html_73df0ce5c9bf43bd927e4f477c832d0d" style="width: 100.0%; height: 100.0%;">Mandarin, Jacksonville, FL Cluster 1</div>')[0];
+                popup_97d93a3ebbe34eefa53c76f4571cdcb6.setContent(html_73df0ce5c9bf43bd927e4f477c832d0d);
+            
+
+            circle_marker_c969ba0308b248afb8175e2958169115.bindPopup(popup_97d93a3ebbe34eefa53c76f4571cdcb6);
+
+            
+        
+    
+            var circle_marker_3852ec0d136e424597f4d0eaecfe141e = L.circleMarker(
+                [30.3343974,-81.8024796],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_5de4dceb141c4b64b45394047841008f = L.popup({maxWidth: '300'});
+
+            
+                var html_44b7e9a8c00448dd93af3be4d51e6af4 = $('<div id="html_44b7e9a8c00448dd93af3be4d51e6af4" style="width: 100.0%; height: 100.0%;">Marietta, Jacksonville, FL Cluster 4</div>')[0];
+                popup_5de4dceb141c4b64b45394047841008f.setContent(html_44b7e9a8c00448dd93af3be4d51e6af4);
+            
+
+            circle_marker_3852ec0d136e424597f4d0eaecfe141e.bindPopup(popup_5de4dceb141c4b64b45394047841008f);
+
+            
+        
+    
+            var circle_marker_c9068fc9f17d42e084f4d7769dadf999 = L.circleMarker(
+                [32.9145645,-96.8094222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_2144778e0419422cb34c208845a95c50 = L.popup({maxWidth: '300'});
+
+            
+                var html_6df7d8bc6fa442e097033b5320483434 = $('<div id="html_6df7d8bc6fa442e097033b5320483434" style="width: 100.0%; height: 100.0%;">Melshire Estates, Dallas, TX Cluster 1</div>')[0];
+                popup_2144778e0419422cb34c208845a95c50.setContent(html_6df7d8bc6fa442e097033b5320483434);
+            
+
+            circle_marker_c9068fc9f17d42e084f4d7769dadf999.bindPopup(popup_2144778e0419422cb34c208845a95c50);
+
+            
+        
+    
+            var circle_marker_d4869d0fd21c4139bf478fb5a39de4c5 = L.circleMarker(
+                [32.9184763,-117.1382404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_435f792ffb424ca68ab23364f7853899 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c804d2f02c14fe99f9b0e3620aa15fd = $('<div id="html_2c804d2f02c14fe99f9b0e3620aa15fd" style="width: 100.0%; height: 100.0%;">Mira Mesa, San Diego, CA Cluster 1</div>')[0];
+                popup_435f792ffb424ca68ab23364f7853899.setContent(html_2c804d2f02c14fe99f9b0e3620aa15fd);
+            
+
+            circle_marker_d4869d0fd21c4139bf478fb5a39de4c5.bindPopup(popup_435f792ffb424ca68ab23364f7853899);
+
+            
+        
+    
+            var circle_marker_bef021fa8162450dbc69189aba7988cb = L.circleMarker(
+                [32.7706526,-117.2514447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7c936136ab9845349a13ac2ccd8848cf = L.popup({maxWidth: '300'});
+
+            
+                var html_8752185fc2a247619dbf854ed6d40bd9 = $('<div id="html_8752185fc2a247619dbf854ed6d40bd9" style="width: 100.0%; height: 100.0%;">Mission Beach, San Diego, CA Cluster 1</div>')[0];
+                popup_7c936136ab9845349a13ac2ccd8848cf.setContent(html_8752185fc2a247619dbf854ed6d40bd9);
+            
+
+            circle_marker_bef021fa8162450dbc69189aba7988cb.bindPopup(popup_7c936136ab9845349a13ac2ccd8848cf);
+
+            
+        
+    
+            var circle_marker_3b6d3f212ef34334a9e430969c2d8b0c = L.circleMarker(
+                [32.7742488,-117.1411815],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_cc59c45f1918460590df60ca726454b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f055514adfda40c095ee465ede86e4c5 = $('<div id="html_f055514adfda40c095ee465ede86e4c5" style="width: 100.0%; height: 100.0%;">Mission Valley East, San Diego, CA Cluster 1</div>')[0];
+                popup_cc59c45f1918460590df60ca726454b9.setContent(html_f055514adfda40c095ee465ede86e4c5);
+            
+
+            circle_marker_3b6d3f212ef34334a9e430969c2d8b0c.bindPopup(popup_cc59c45f1918460590df60ca726454b9);
+
+            
+        
+    
+            var circle_marker_ffba538f3bd341f2af08873a4c00dc7e = L.circleMarker(
+                [32.767107,-117.1941153],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_3543787cc81247bda9cc8dae1890d87d = L.popup({maxWidth: '300'});
+
+            
+                var html_96bafe4e907146f78cc42f95e6f4e189 = $('<div id="html_96bafe4e907146f78cc42f95e6f4e189" style="width: 100.0%; height: 100.0%;">Morena, San Diego, CA Cluster 1</div>')[0];
+                popup_3543787cc81247bda9cc8dae1890d87d.setContent(html_96bafe4e907146f78cc42f95e6f4e189);
+            
+
+            circle_marker_ffba538f3bd341f2af08873a4c00dc7e.bindPopup(popup_3543787cc81247bda9cc8dae1890d87d);
+
+            
+        
+    
+            var circle_marker_e3cf0a5b80a7418ba495c9f571fb3329 = L.circleMarker(
+                [32.8029665,-117.0322477],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#56f7ca",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#56f7ca",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7573272e1d78470e9809e0492a12013d = L.popup({maxWidth: '300'});
+
+            
+                var html_7c801c6b54e8474fbc3c69fabfa9a814 = $('<div id="html_7c801c6b54e8474fbc3c69fabfa9a814" style="width: 100.0%; height: 100.0%;">Navajo (Allied Gardens, San Diego, CA Cluster 9</div>')[0];
+                popup_7573272e1d78470e9809e0492a12013d.setContent(html_7c801c6b54e8474fbc3c69fabfa9a814);
+            
+
+            circle_marker_e3cf0a5b80a7418ba495c9f571fb3329.bindPopup(popup_7573272e1d78470e9809e0492a12013d);
+
+            
+        
+    
+            var circle_marker_30271696a179464fae56cd60cc4579a7 = L.circleMarker(
+                [32.9375122,-96.7733299],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_74744ac99b2f4d678a38886c9ee7b606 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc7e34a2ff4d405e9b49fd03a6a00d35 = $('<div id="html_cc7e34a2ff4d405e9b49fd03a6a00d35" style="width: 100.0%; height: 100.0%;">Northwood Hills, Dallas, TX Cluster 14</div>')[0];
+                popup_74744ac99b2f4d678a38886c9ee7b606.setContent(html_cc7e34a2ff4d405e9b49fd03a6a00d35);
+            
+
+            circle_marker_30271696a179464fae56cd60cc4579a7.bindPopup(popup_74744ac99b2f4d678a38886c9ee7b606);
+
+            
+        
+    
+            var circle_marker_ce1bf5b0a6f14ee38c24068b2b90bb29 = L.circleMarker(
+                [33.028512,-97.025688],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f8983dbfe23846e2af496e5e9d3c5355 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6f47b52a4ab4e89877b24738e1ac0bd = $('<div id="html_d6f47b52a4ab4e89877b24738e1ac0bd" style="width: 100.0%; height: 100.0%;">Oak Tree Village, Dallas, TX Cluster 0</div>')[0];
+                popup_f8983dbfe23846e2af496e5e9d3c5355.setContent(html_d6f47b52a4ab4e89877b24738e1ac0bd);
+            
+
+            circle_marker_ce1bf5b0a6f14ee38c24068b2b90bb29.bindPopup(popup_f8983dbfe23846e2af496e5e9d3c5355);
+
+            
+        
+    
+            var circle_marker_604ef35e53a3427eaf766e4ab4a26f0c = L.circleMarker(
+                [30.3117223,-97.75457259999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6381971e18384b7d9453415cb3e040db = L.popup({maxWidth: '300'});
+
+            
+                var html_4353558d59714da2b18f8adbfa539876 = $('<div id="html_4353558d59714da2b18f8adbfa539876" style="width: 100.0%; height: 100.0%;">Oakmont Heights, Austin, TX Cluster 1</div>')[0];
+                popup_6381971e18384b7d9453415cb3e040db.setContent(html_4353558d59714da2b18f8adbfa539876);
+            
+
+            circle_marker_604ef35e53a3427eaf766e4ab4a26f0c.bindPopup(popup_6381971e18384b7d9453415cb3e040db);
+
+            
+        
+    
+            var circle_marker_fe3b42477fe14c36ad9fa015868a69dc = L.circleMarker(
+                [32.7494988,-117.2470353],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_224dfe16b0d94a94a1dbef7ac3a2f9e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_630442caaf244898ba9dab0a229d09c5 = $('<div id="html_630442caaf244898ba9dab0a229d09c5" style="width: 100.0%; height: 100.0%;">Ocean Beach, San Diego, CA Cluster 1</div>')[0];
+                popup_224dfe16b0d94a94a1dbef7ac3a2f9e6.setContent(html_630442caaf244898ba9dab0a229d09c5);
+            
+
+            circle_marker_fe3b42477fe14c36ad9fa015868a69dc.bindPopup(popup_224dfe16b0d94a94a1dbef7ac3a2f9e6);
+
+            
+        
+    
+            var circle_marker_0db978f62dfb4e068cf60a801b43b994 = L.circleMarker(
+                [30.4144742,-97.6892577],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_af707d85bd48459ab6a13ba01e6cc6bb = L.popup({maxWidth: '300'});
+
+            
+                var html_7a0cecb15af146f5842d021c6752cf0f = $('<div id="html_7a0cecb15af146f5842d021c6752cf0f" style="width: 100.0%; height: 100.0%;">Original Austin, Austin, TX Cluster 4</div>')[0];
+                popup_af707d85bd48459ab6a13ba01e6cc6bb.setContent(html_7a0cecb15af146f5842d021c6752cf0f);
+            
+
+            circle_marker_0db978f62dfb4e068cf60a801b43b994.bindPopup(popup_af707d85bd48459ab6a13ba01e6cc6bb);
+
+            
+        
+    
+            var circle_marker_9db8d529c61b445aaa4a1d7b86c61727 = L.circleMarker(
+                [30.33858219999999,-81.7376778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_bd0336f15b364f1f8417ba4f6b899ad0 = L.popup({maxWidth: '300'});
+
+            
+                var html_4857e13a74d4469fa3c791f38bfa637f = $('<div id="html_4857e13a74d4469fa3c791f38bfa637f" style="width: 100.0%; height: 100.0%;">Paxon, Jacksonville, FL Cluster 4</div>')[0];
+                popup_bd0336f15b364f1f8417ba4f6b899ad0.setContent(html_4857e13a74d4469fa3c791f38bfa637f);
+            
+
+            circle_marker_9db8d529c61b445aaa4a1d7b86c61727.bindPopup(popup_bd0336f15b364f1f8417ba4f6b899ad0);
+
+            
+        
+    
+            var circle_marker_6352236b94974cbebcf709122be81a03 = L.circleMarker(
+                [32.9107661,-96.8787074],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_8d86b04313b94fa6863ea8a17bd6208f = L.popup({maxWidth: '300'});
+
+            
+                var html_b606226502e749cc84ba7c08cd0c053a = $('<div id="html_b606226502e749cc84ba7c08cd0c053a" style="width: 100.0%; height: 100.0%;">Platinum Corridor, Dallas, TX Cluster 1</div>')[0];
+                popup_8d86b04313b94fa6863ea8a17bd6208f.setContent(html_b606226502e749cc84ba7c08cd0c053a);
+            
+
+            circle_marker_6352236b94974cbebcf709122be81a03.bindPopup(popup_8d86b04313b94fa6863ea8a17bd6208f);
+
+            
+        
+    
+            var circle_marker_23b6efbc0e8f485abe61216e149be8b4 = L.circleMarker(
+                [32.712273,-117.2453141],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_338e646e339d4cefb439823fa16998dd = L.popup({maxWidth: '300'});
+
+            
+                var html_d4048fa681574038ab2831ef46d94f94 = $('<div id="html_d4048fa681574038ab2831ef46d94f94" style="width: 100.0%; height: 100.0%;">Point Loma (La Playa, San Diego, CA Cluster 0</div>')[0];
+                popup_338e646e339d4cefb439823fa16998dd.setContent(html_d4048fa681574038ab2831ef46d94f94);
+            
+
+            circle_marker_23b6efbc0e8f485abe61216e149be8b4.bindPopup(popup_338e646e339d4cefb439823fa16998dd);
+
+            
+        
+    
+            var circle_marker_13f3eab193c84d59874f5e5836a11f2e = L.circleMarker(
+                [41.885216,-87.6337453],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_54d5ff535d4f467c92438994fd1fd6ad = L.popup({maxWidth: '300'});
+
+            
+                var html_e436957063734689a5314c6d6ac2e97c = $('<div id="html_e436957063734689a5314c6d6ac2e97c" style="width: 100.0%; height: 100.0%;">Polish Downtown, Chicago, IL Cluster 1</div>')[0];
+                popup_54d5ff535d4f467c92438994fd1fd6ad.setContent(html_e436957063734689a5314c6d6ac2e97c);
+            
+
+            circle_marker_13f3eab193c84d59874f5e5836a11f2e.bindPopup(popup_54d5ff535d4f467c92438994fd1fd6ad);
+
+            
+        
+    
+            var circle_marker_6e3ec563b6f349c1ba816c51d637539e = L.circleMarker(
+                [32.934381,-117.0029015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#169bf2",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#169bf2",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_697500879ba749728fb80403afa0e7f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_32bc73de925c41f4a98f32b25faaf9cd = $('<div id="html_32bc73de925c41f4a98f32b25faaf9cd" style="width: 100.0%; height: 100.0%;">Rancho Encantada, San Diego, CA Cluster 5</div>')[0];
+                popup_697500879ba749728fb80403afa0e7f2.setContent(html_32bc73de925c41f4a98f32b25faaf9cd);
+            
+
+            circle_marker_6e3ec563b6f349c1ba816c51d637539e.bindPopup(popup_697500879ba749728fb80403afa0e7f2);
+
+            
+        
+    
+            var circle_marker_e82664791ab84bb7b1bb7235a082a97c = L.circleMarker(
+                [32.9657005,-117.1147095],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#72febb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#72febb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_ee4a41ef676e4a9cb170b39d4825fcc3 = L.popup({maxWidth: '300'});
+
+            
+                var html_3fe492266b10485aaff1eed78d824892 = $('<div id="html_3fe492266b10485aaff1eed78d824892" style="width: 100.0%; height: 100.0%;">Rancho Peñasquitos, San Diego, CA Cluster 10</div>')[0];
+                popup_ee4a41ef676e4a9cb170b39d4825fcc3.setContent(html_3fe492266b10485aaff1eed78d824892);
+            
+
+            circle_marker_e82664791ab84bb7b1bb7235a082a97c.bindPopup(popup_ee4a41ef676e4a9cb170b39d4825fcc3);
+
+            
+        
+    
+            var circle_marker_305e28138b9641eba852f5c0c508cfbe = L.circleMarker(
+                [32.6765725,-96.88271490000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_44e54886be504df6bca617791100a0b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0422273c2f1452081e3b49fffabde54 = $('<div id="html_f0422273c2f1452081e3b49fffabde54" style="width: 100.0%; height: 100.0%;">Redbird, Dallas, TX Cluster 14</div>')[0];
+                popup_44e54886be504df6bca617791100a0b6.setContent(html_f0422273c2f1452081e3b49fffabde54);
+            
+
+            circle_marker_305e28138b9641eba852f5c0c508cfbe.bindPopup(popup_44e54886be504df6bca617791100a0b6);
+
+            
+        
+    
+            var circle_marker_ea793959307b47939221b94455640d35 = L.circleMarker(
+                [32.9339024,-96.73191849999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#a8f79c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#a8f79c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_8fb4ba03f18d4b18b06f2337cc1c11a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e38b82d666e446e8f656dfb32e75e6f = $('<div id="html_9e38b82d666e446e8f656dfb32e75e6f" style="width: 100.0%; height: 100.0%;">Richland Park Estates, Dallas, TX Cluster 12</div>')[0];
+                popup_8fb4ba03f18d4b18b06f2337cc1c11a1.setContent(html_9e38b82d666e446e8f656dfb32e75e6f);
+            
+
+            circle_marker_ea793959307b47939221b94455640d35.bindPopup(popup_8fb4ba03f18d4b18b06f2337cc1c11a1);
+
+            
+        
+    
+            var circle_marker_64ec6fe3ab6c402991dfdc8bab904313 = L.circleMarker(
+                [30.4179412,-97.8984558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#6629fe",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#6629fe",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_b3e5a3f751804e858de3d92a47f176aa = L.popup({maxWidth: '300'});
+
+            
+                var html_bb0594b6b6784e988c89d2cfb8f78c7a = $('<div id="html_bb0594b6b6784e988c89d2cfb8f78c7a" style="width: 100.0%; height: 100.0%;">Ridgetop, Austin, TX Cluster 2</div>')[0];
+                popup_b3e5a3f751804e858de3d92a47f176aa.setContent(html_bb0594b6b6784e988c89d2cfb8f78c7a);
+            
+
+            circle_marker_64ec6fe3ab6c402991dfdc8bab904313.bindPopup(popup_b3e5a3f751804e858de3d92a47f176aa);
+
+            
+        
+    
+            var circle_marker_1adc02fb4c5b48cdbf68f4204356ae03 = L.circleMarker(
+                [30.3129035,-81.6938933],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_9c79652399fa4c888fa640321f47f692 = L.popup({maxWidth: '300'});
+
+            
+                var html_8808e95a63f544c886de8da6523b996f = $('<div id="html_8808e95a63f544c886de8da6523b996f" style="width: 100.0%; height: 100.0%;">Riverside, Jacksonville, FL Cluster 1</div>')[0];
+                popup_9c79652399fa4c888fa640321f47f692.setContent(html_8808e95a63f544c886de8da6523b996f);
+            
+
+            circle_marker_1adc02fb4c5b48cdbf68f4204356ae03.bindPopup(popup_9c79652399fa4c888fa640321f47f692);
+
+            
+        
+    
+            var circle_marker_efff16b377a940b38634d24172057dae = L.circleMarker(
+                [42.010636,-87.6695529],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_2d646a5073c540ad9930ac301e1bdbeb = L.popup({maxWidth: '300'});
+
+            
+                var html_77795d9ffc804f99995d4e02ff675e9e = $('<div id="html_77795d9ffc804f99995d4e02ff675e9e" style="width: 100.0%; height: 100.0%;">Rogers Park, Chicago, IL Cluster 14</div>')[0];
+                popup_2d646a5073c540ad9930ac301e1bdbeb.setContent(html_77795d9ffc804f99995d4e02ff675e9e);
+            
+
+            circle_marker_efff16b377a940b38634d24172057dae.bindPopup(popup_2d646a5073c540ad9930ac301e1bdbeb);
+
+            
+        
+    
+            var circle_marker_d1c59ab9756943308caee667938fd087 = L.circleMarker(
+                [30.3143949,-97.74574439999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_1f5d9d93eecc43b687284a361f37c163 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ae6d8d8feb84007a3c5cdbe387c03b9 = $('<div id="html_4ae6d8d8feb84007a3c5cdbe387c03b9" style="width: 100.0%; height: 100.0%;">Rosedale, Austin, TX Cluster 1</div>')[0];
+                popup_1f5d9d93eecc43b687284a361f37c163.setContent(html_4ae6d8d8feb84007a3c5cdbe387c03b9);
+            
+
+            circle_marker_d1c59ab9756943308caee667938fd087.bindPopup(popup_1f5d9d93eecc43b687284a361f37c163);
+
+            
+        
+    
+            var circle_marker_55c3b94308c542f99de7509d52857f46 = L.circleMarker(
+                [32.8949606,-96.8177534],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7648f43247f44d989e8389a4b9f5b61d = L.popup({maxWidth: '300'});
+
+            
+                var html_87a571f7a2ae442a8eccf1b62ce8bd88 = $('<div id="html_87a571f7a2ae442a8eccf1b62ce8bd88" style="width: 100.0%; height: 100.0%;">Royal Lane Village, Dallas, TX Cluster 0</div>')[0];
+                popup_7648f43247f44d989e8389a4b9f5b61d.setContent(html_87a571f7a2ae442a8eccf1b62ce8bd88);
+            
+
+            circle_marker_55c3b94308c542f99de7509d52857f46.bindPopup(popup_7648f43247f44d989e8389a4b9f5b61d);
+
+            
+        
+    
+            var circle_marker_b7e3629ee2094044b3587b6f222d2c80 = L.circleMarker(
+                [33.0831683,-116.9911288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_f522571f030446acab25b11f00b09d28 = L.popup({maxWidth: '300'});
+
+            
+                var html_a66bbb4e683e4d279e4d5ebde49ea927 = $('<div id="html_a66bbb4e683e4d279e4d5ebde49ea927" style="width: 100.0%; height: 100.0%;">San Pasqual Valley, San Diego, CA Cluster 1</div>')[0];
+                popup_f522571f030446acab25b11f00b09d28.setContent(html_a66bbb4e683e4d279e4d5ebde49ea927);
+            
+
+            circle_marker_b7e3629ee2094044b3587b6f222d2c80.bindPopup(popup_f522571f030446acab25b11f00b09d28);
+
+            
+        
+    
+            var circle_marker_363f54a4c29c41d9b98c0b7cb237e3a5 = L.circleMarker(
+                [30.3105172,-81.50824890000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_75536907d6d24ca4a8776472a21280fc = L.popup({maxWidth: '300'});
+
+            
+                var html_7e34e70e9898477a954836ad1882f317 = $('<div id="html_7e34e70e9898477a954836ad1882f317" style="width: 100.0%; height: 100.0%;">Sandalwood, Jacksonville, FL Cluster 1</div>')[0];
+                popup_75536907d6d24ca4a8776472a21280fc.setContent(html_7e34e70e9898477a954836ad1882f317);
+            
+
+            circle_marker_363f54a4c29c41d9b98c0b7cb237e3a5.bindPopup(popup_75536907d6d24ca4a8776472a21280fc);
+
+            
+        
+    
+            var circle_marker_f2a65dc68d444a70b115af722aef1cdf = L.circleMarker(
+                [32.8786728,-96.8394627],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4c50fc",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4c50fc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_6283130ada1843898711d5112c21095f = L.popup({maxWidth: '300'});
+
+            
+                var html_84544d4c557f4fe195d7ec348f833a25 = $('<div id="html_84544d4c557f4fe195d7ec348f833a25" style="width: 100.0%; height: 100.0%;">Santa Monica, Dallas, TX Cluster 3</div>')[0];
+                popup_6283130ada1843898711d5112c21095f.setContent(html_84544d4c557f4fe195d7ec348f833a25);
+            
+
+            circle_marker_f2a65dc68d444a70b115af722aef1cdf.bindPopup(popup_6283130ada1843898711d5112c21095f);
+
+            
+        
+    
+            var circle_marker_9af275b60dab460687797cfc373e9601 = L.circleMarker(
+                [32.9000226,-117.1894828],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#6629fe",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#6629fe",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_191b705b73b94442b9a7fca0a426f5d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_eafcdbf013604e449ccf4182a359cf7c = $('<div id="html_eafcdbf013604e449ccf4182a359cf7c" style="width: 100.0%; height: 100.0%;">Sorrento Valley, San Diego, CA Cluster 2</div>')[0];
+                popup_191b705b73b94442b9a7fca0a426f5d9.setContent(html_eafcdbf013604e449ccf4182a359cf7c);
+            
+
+            circle_marker_9af275b60dab460687797cfc373e9601.bindPopup(popup_191b705b73b94442b9a7fca0a426f5d9);
+
+            
+        
+    
+            var circle_marker_659dc0b274304bbba68ebd6d5a9e8517 = L.circleMarker(
+                [30.3448058,-81.6555607],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_baebbde53d7c4bbbb95ce3ecfc8f348c = L.popup({maxWidth: '300'});
+
+            
+                var html_86ee4e8c105f4d30ac43772cfbf18d25 = $('<div id="html_86ee4e8c105f4d30ac43772cfbf18d25" style="width: 100.0%; height: 100.0%;">Springfield, Jacksonville, FL Cluster 1</div>')[0];
+                popup_baebbde53d7c4bbbb95ce3ecfc8f348c.setContent(html_86ee4e8c105f4d30ac43772cfbf18d25);
+            
+
+            circle_marker_659dc0b274304bbba68ebd6d5a9e8517.bindPopup(popup_baebbde53d7c4bbbb95ce3ecfc8f348c);
+
+            
+        
+    
+            var circle_marker_2d5aebceaabc40439c76ac3b52873dc5 = L.circleMarker(
+                [32.8685382,-96.7735105],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_c0c8a9d34ead4d28a12ce04232926131 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0530fc5306b400d8afe08ecc06abd2f = $('<div id="html_b0530fc5306b400d8afe08ecc06abd2f" style="width: 100.0%; height: 100.0%;">Thanksgiving Commercial Center, Dallas, TX Cluster 1</div>')[0];
+                popup_c0c8a9d34ead4d28a12ce04232926131.setContent(html_b0530fc5306b400d8afe08ecc06abd2f);
+            
+
+            circle_marker_2d5aebceaabc40439c76ac3b52873dc5.bindPopup(popup_c0c8a9d34ead4d28a12ce04232926131);
+
+            
+        
+    
+            var circle_marker_add2d57ac78c4a839dd96d92e5add885 = L.circleMarker(
+                [32.7651238,-96.78937069999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_d7eb2dec33f94e4cb3f805f9ddf00ab4 = L.popup({maxWidth: '300'});
+
+            
+                var html_c746029c04514c839f1e1c328958418b = $('<div id="html_c746029c04514c839f1e1c328958418b" style="width: 100.0%; height: 100.0%;">The Cedars, Dallas, TX Cluster 1</div>')[0];
+                popup_d7eb2dec33f94e4cb3f805f9ddf00ab4.setContent(html_c746029c04514c839f1e1c328958418b);
+            
+
+            circle_marker_add2d57ac78c4a839dd96d92e5add885.bindPopup(popup_d7eb2dec33f94e4cb3f805f9ddf00ab4);
+
+            
+        
+    
+            var circle_marker_8a37d7fea59b46bdaae3f7bcc3fd7dba = L.circleMarker(
+                [41.8670575,-87.7701836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_79b65b64a35e4da9a73f605608b0015e = L.popup({maxWidth: '300'});
+
+            
+                var html_c7bbb37d728d43c6a051f21f3dec359f = $('<div id="html_c7bbb37d728d43c6a051f21f3dec359f" style="width: 100.0%; height: 100.0%;">The Island, Chicago, IL Cluster 14</div>')[0];
+                popup_79b65b64a35e4da9a73f605608b0015e.setContent(html_c7bbb37d728d43c6a051f21f3dec359f);
+            
+
+            circle_marker_8a37d7fea59b46bdaae3f7bcc3fd7dba.bindPopup(popup_79b65b64a35e4da9a73f605608b0015e);
+
+            
+        
+    
+            var circle_marker_3f7d2bc5c4904c8aa39753c630347643 = L.circleMarker(
+                [32.825809,-117.1039876],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_fa72f59e3e1943aabaecb94ba0d3f2f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_7185d2b74a5b443694c4e9a3a49aeb1b = $('<div id="html_7185d2b74a5b443694c4e9a3a49aeb1b" style="width: 100.0%; height: 100.0%;">Tierrasanta, San Diego, CA Cluster 1</div>')[0];
+                popup_fa72f59e3e1943aabaecb94ba0d3f2f3.setContent(html_7185d2b74a5b443694c4e9a3a49aeb1b);
+            
+
+            circle_marker_3f7d2bc5c4904c8aa39753c630347643.bindPopup(popup_fa72f59e3e1943aabaecb94ba0d3f2f3);
+
+            
+        
+    
+            var circle_marker_75a9106d3eb344b2baa273479cfb0ed7 = L.circleMarker(
+                [33.0054552,-96.84939659999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_73a0d292b19b4744b42a656cd7c12213 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f71a12d2a8f4de7a3a82df6ef93b2cd = $('<div id="html_7f71a12d2a8f4de7a3a82df6ef93b2cd" style="width: 100.0%; height: 100.0%;">Timberglen, Dallas, TX Cluster 1</div>')[0];
+                popup_73a0d292b19b4744b42a656cd7c12213.setContent(html_7f71a12d2a8f4de7a3a82df6ef93b2cd);
+            
+
+            circle_marker_75a9106d3eb344b2baa273479cfb0ed7.bindPopup(popup_73a0d292b19b4744b42a656cd7c12213);
+
+            
+        
+    
+            var circle_marker_8f82ec39e2d04e8dbae40ec17a59f654 = L.circleMarker(
+                [32.8577324,-117.2054294],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ded579",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ded579",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7d5f729565fe49e99af318209f665459 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac5325f201d441b1879cf606924cb184 = $('<div id="html_ac5325f201d441b1879cf606924cb184" style="width: 100.0%; height: 100.0%;">University City, San Diego, CA Cluster 14</div>')[0];
+                popup_7d5f729565fe49e99af318209f665459.setContent(html_ac5325f201d441b1879cf606924cb184);
+            
+
+            circle_marker_8f82ec39e2d04e8dbae40ec17a59f654.bindPopup(popup_7d5f729565fe49e99af318209f665459);
+
+            
+        
+    
+            var circle_marker_56560465f0824f718381cfd8edefa882 = L.circleMarker(
+                [32.7572059,-117.1470637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_9ec195ba25154c268193fcd7e5dfcfd5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d3fc3f89e9b4f078ba6c13969303064 = $('<div id="html_5d3fc3f89e9b4f078ba6c13969303064" style="width: 100.0%; height: 100.0%;">University Heights, San Diego, CA Cluster 1</div>')[0];
+                popup_9ec195ba25154c268193fcd7e5dfcfd5.setContent(html_5d3fc3f89e9b4f078ba6c13969303064);
+            
+
+            circle_marker_56560465f0824f718381cfd8edefa882.bindPopup(popup_9ec195ba25154c268193fcd7e5dfcfd5);
+
+            
+        
+    
+            var circle_marker_fc5951a2b0064ce6bed3d8f942fda692 = L.circleMarker(
+                [32.8410948,-96.7861547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_4a9e46687acf4f2081fb1c01b2a5b6e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e2daf7e31e84ee189c33e5f6e2b733a = $('<div id="html_2e2daf7e31e84ee189c33e5f6e2b733a" style="width: 100.0%; height: 100.0%;">University Meadows, Dallas, TX Cluster 1</div>')[0];
+                popup_4a9e46687acf4f2081fb1c01b2a5b6e6.setContent(html_2e2daf7e31e84ee189c33e5f6e2b733a);
+            
+
+            circle_marker_fc5951a2b0064ce6bed3d8f942fda692.bindPopup(popup_4a9e46687acf4f2081fb1c01b2a5b6e6);
+
+            
+        
+    
+            var circle_marker_937c92614d6b44cf827274c8a38634d4 = L.circleMarker(
+                [32.7860229,-96.8091183],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_a6ae83c75b0f4bd39f96efed3d7f7804 = L.popup({maxWidth: '300'});
+
+            
+                var html_620198c702f44aeb8d8129a74b638ff7 = $('<div id="html_620198c702f44aeb8d8129a74b638ff7" style="width: 100.0%; height: 100.0%;">University Terrace, Dallas, TX Cluster 1</div>')[0];
+                popup_a6ae83c75b0f4bd39f96efed3d7f7804.setContent(html_620198c702f44aeb8d8129a74b638ff7);
+            
+
+            circle_marker_937c92614d6b44cf827274c8a38634d4.bindPopup(popup_a6ae83c75b0f4bd39f96efed3d7f7804);
+
+            
+        
+    
+            var circle_marker_1151688573c34720b71bcc67d3664d9e = L.circleMarker(
+                [32.8015565,-96.8002704],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_ffea98c541674f4b98b49b0355b0598d = L.popup({maxWidth: '300'});
+
+            
+                var html_42688c8495c747528935d4d51f9e4749 = $('<div id="html_42688c8495c747528935d4d51f9e4749" style="width: 100.0%; height: 100.0%;">Uptown, Dallas, TX Cluster 1</div>')[0];
+                popup_ffea98c541674f4b98b49b0355b0598d.setContent(html_42688c8495c747528935d4d51f9e4749);
+            
+
+            circle_marker_1151688573c34720b71bcc67d3664d9e.bindPopup(popup_ffea98c541674f4b98b49b0355b0598d);
+
+            
+        
+    
+            var circle_marker_2c142f3d0173478ab88677f9348cc679 = L.circleMarker(
+                [32.7496004,-96.559151],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_4a1353289ea048cbadb0a511d68ae383 = L.popup({maxWidth: '300'});
+
+            
+                var html_f38c121265854fb39f2f6cf9e098496b = $('<div id="html_f38c121265854fb39f2f6cf9e098496b" style="width: 100.0%; height: 100.0%;">Walnut Creek Estates, Dallas, TX Cluster 4</div>')[0];
+                popup_4a1353289ea048cbadb0a511d68ae383.setContent(html_f38c121265854fb39f2f6cf9e098496b);
+            
+
+            circle_marker_2c142f3d0173478ab88677f9348cc679.bindPopup(popup_4a1353289ea048cbadb0a511d68ae383);
+
+            
+        
+    
+            var circle_marker_f0bda6499aa847ac91f19ac438255cb3 = L.circleMarker(
+                [41.7780891,-87.66671769999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c2ea8c",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c2ea8c",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_38ba597c959d4914897bcc7ac3228e9a = L.popup({maxWidth: '300'});
+
+            
+                var html_3d7d444c50e8438a96f4b27d5b330005 = $('<div id="html_3d7d444c50e8438a96f4b27d5b330005" style="width: 100.0%; height: 100.0%;">West Englewood, Chicago, IL Cluster 13</div>')[0];
+                popup_38ba597c959d4914897bcc7ac3228e9a.setContent(html_3d7d444c50e8438a96f4b27d5b330005);
+            
+
+            circle_marker_f0bda6499aa847ac91f19ac438255cb3.bindPopup(popup_38ba597c959d4914897bcc7ac3228e9a);
+
+            
+        
+    
+            var circle_marker_893c5319e1294896a65aa1f8faf70bd3 = L.circleMarker(
+                [42.0005804,-87.69257669999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3079f7",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3079f7",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_52dda75ea8b1493ba49ca2028b06c666);
+            
+    
+            var popup_7f6c968b9712400cb8f2fc4330f3a772 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e8efa5249b4421da157e06ee81e6254 = $('<div id="html_4e8efa5249b4421da157e06ee81e6254" style="width: 100.0%; height: 100.0%;">West Ridge, Chicago, IL Cluster 4</div>')[0];
+                popup_7f6c968b9712400cb8f2fc4330f3a772.setContent(html_4e8efa5249b4421da157e06ee81e6254);
+            
+
+            circle_marker_893c5319e1294896a65aa1f8faf70bd3.bindPopup(popup_7f6c968b9712400cb8f2fc4330f3a772);
+
+            
+        
+</script>
