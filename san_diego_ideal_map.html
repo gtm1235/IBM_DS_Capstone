@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_c2f90e697c2f42c5a780787b0c970e80 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c2f90e697c2f42c5a780787b0c970e80" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_c2f90e697c2f42c5a780787b0c970e80 = L.map(
+                                  'map_c2f90e697c2f42c5a780787b0c970e80',
+                                  {center: [32.7174209,-117.1627714],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_333db95c725949d0acfa4a6c993786e3 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+        
+    
+            var circle_marker_6b0931383e3d4cdbbfe38fcff03d1525 = L.circleMarker(
+                [41.9254701,-87.64877829999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_8322e41ada0a43bb958fe00b4da51675 = L.popup({maxWidth: '300'});
+
+            
+                var html_1df9fe814402486cb38ab61c3166df13 = $('<div id="html_1df9fe814402486cb38ab61c3166df13" style="width: 100.0%; height: 100.0%;">Lincoln Park, Chicago, IL</div>')[0];
+                popup_8322e41ada0a43bb958fe00b4da51675.setContent(html_1df9fe814402486cb38ab61c3166df13);
+            
+
+            circle_marker_6b0931383e3d4cdbbfe38fcff03d1525.bindPopup(popup_8322e41ada0a43bb958fe00b4da51675);
+
+            
+        
+    
+            var circle_marker_b02f371574e24e5d90be408534c3949e = L.circleMarker(
+                [30.3117223,-97.75457259999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_41e6eb42ed3043b494a2d1d006001ee2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f12e9131ce944a58b3c157f3b865eb0a = $('<div id="html_f12e9131ce944a58b3c157f3b865eb0a" style="width: 100.0%; height: 100.0%;">Oakmont Heights, Austin, TX</div>')[0];
+                popup_41e6eb42ed3043b494a2d1d006001ee2.setContent(html_f12e9131ce944a58b3c157f3b865eb0a);
+            
+
+            circle_marker_b02f371574e24e5d90be408534c3949e.bindPopup(popup_41e6eb42ed3043b494a2d1d006001ee2);
+
+            
+        
+    
+            var circle_marker_d81791f1a3e544f4a578ffe900bbe5e8 = L.circleMarker(
+                [41.9973418,-87.7621724],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_d1535bca14b54d10b2b7f461952fcebe = L.popup({maxWidth: '300'});
+
+            
+                var html_55c1ac7ae7564d11bf07ca2238bec841 = $('<div id="html_55c1ac7ae7564d11bf07ca2238bec841" style="width: 100.0%; height: 100.0%;">Edgebrook, Chicago, IL</div>')[0];
+                popup_d1535bca14b54d10b2b7f461952fcebe.setContent(html_55c1ac7ae7564d11bf07ca2238bec841);
+            
+
+            circle_marker_d81791f1a3e544f4a578ffe900bbe5e8.bindPopup(popup_d1535bca14b54d10b2b7f461952fcebe);
+
+            
+        
+    
+            var circle_marker_f8a06478ab294ab9b94680e9147e1f5b = L.circleMarker(
+                [41.8646077,-87.62153819999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_6a04e864c4cc48bd99aa214275152c7d = L.popup({maxWidth: '300'});
+
+            
+                var html_393d1968fd054385841650dc7cece1d9 = $('<div id="html_393d1968fd054385841650dc7cece1d9" style="width: 100.0%; height: 100.0%;">Central Station, Chicago, IL</div>')[0];
+                popup_6a04e864c4cc48bd99aa214275152c7d.setContent(html_393d1968fd054385841650dc7cece1d9);
+            
+
+            circle_marker_f8a06478ab294ab9b94680e9147e1f5b.bindPopup(popup_6a04e864c4cc48bd99aa214275152c7d);
+
+            
+        
+    
+            var circle_marker_4229f00151bb41c5ab5ccc70da078c58 = L.circleMarker(
+                [41.9439979,-87.6473853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_effcc0960bcb476ba17053f41215795e = L.popup({maxWidth: '300'});
+
+            
+                var html_3d7daad2207f4346829a01b618b66f87 = $('<div id="html_3d7daad2207f4346829a01b618b66f87" style="width: 100.0%; height: 100.0%;">Boystown, Chicago, IL</div>')[0];
+                popup_effcc0960bcb476ba17053f41215795e.setContent(html_3d7daad2207f4346829a01b618b66f87);
+            
+
+            circle_marker_4229f00151bb41c5ab5ccc70da078c58.bindPopup(popup_effcc0960bcb476ba17053f41215795e);
+
+            
+        
+    
+            var circle_marker_b015c289edca46489d1e684067ebf90c = L.circleMarker(
+                [41.87856439999999,-87.6470504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_49ac3e9420f643b9b3e6f8743ececc34 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdb6b7b381e74948a6797806bf97e669 = $('<div id="html_bdb6b7b381e74948a6797806bf97e669" style="width: 100.0%; height: 100.0%;">Greektown, Chicago, IL</div>')[0];
+                popup_49ac3e9420f643b9b3e6f8743ececc34.setContent(html_bdb6b7b381e74948a6797806bf97e669);
+            
+
+            circle_marker_b015c289edca46489d1e684067ebf90c.bindPopup(popup_49ac3e9420f643b9b3e6f8743ececc34);
+
+            
+        
+    
+            var circle_marker_6fa9a125a9724a80b768ad600fa79e96 = L.circleMarker(
+                [30.30244979999999,-97.75389349999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_6dd96a8361de4eb8b4426d5da03f9b1f = L.popup({maxWidth: '300'});
+
+            
+                var html_43e087e6857f49669be3211a37c5c22a = $('<div id="html_43e087e6857f49669be3211a37c5c22a" style="width: 100.0%; height: 100.0%;">Bryker Woods, Austin, TX</div>')[0];
+                popup_6dd96a8361de4eb8b4426d5da03f9b1f.setContent(html_43e087e6857f49669be3211a37c5c22a);
+            
+
+            circle_marker_6fa9a125a9724a80b768ad600fa79e96.bindPopup(popup_6dd96a8361de4eb8b4426d5da03f9b1f);
+
+            
+        
+    
+            var circle_marker_ad4a1fe0cce44d829ca53de219f7f3bd = L.circleMarker(
+                [41.9010905,-87.64146360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_3856b98df5fa4d15a63fc96601bce1fc = L.popup({maxWidth: '300'});
+
+            
+                var html_3fdc62ddeadb4057a73c333436096889 = $('<div id="html_3fdc62ddeadb4057a73c333436096889" style="width: 100.0%; height: 100.0%;">Cabrini–Green, Chicago, IL</div>')[0];
+                popup_3856b98df5fa4d15a63fc96601bce1fc.setContent(html_3fdc62ddeadb4057a73c333436096889);
+            
+
+            circle_marker_ad4a1fe0cce44d829ca53de219f7f3bd.bindPopup(popup_3856b98df5fa4d15a63fc96601bce1fc);
+
+            
+        
+    
+            var circle_marker_e1177ea12c124bb286e909fe26640bdb = L.circleMarker(
+                [41.95767559999999,-87.650714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_c851a15d4f0f4aa99508f5be404ac269 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c585fc246684c3d9f62266e6ce744f3 = $('<div id="html_5c585fc246684c3d9f62266e6ce744f3" style="width: 100.0%; height: 100.0%;">Buena Park, Chicago, IL</div>')[0];
+                popup_c851a15d4f0f4aa99508f5be404ac269.setContent(html_5c585fc246684c3d9f62266e6ce744f3);
+            
+
+            circle_marker_e1177ea12c124bb286e909fe26640bdb.bindPopup(popup_c851a15d4f0f4aa99508f5be404ac269);
+
+            
+        
+    
+            var circle_marker_2d7ab38ec0aa40a4a8a49f1d761977a5 = L.circleMarker(
+                [32.7706526,-117.2514447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_119d8e70de774dafa58cc2b90ef16aa7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f2316149e754eb3933729585356c6b1 = $('<div id="html_3f2316149e754eb3933729585356c6b1" style="width: 100.0%; height: 100.0%;">Mission Beach, San Diego, CA</div>')[0];
+                popup_119d8e70de774dafa58cc2b90ef16aa7.setContent(html_3f2316149e754eb3933729585356c6b1);
+            
+
+            circle_marker_2d7ab38ec0aa40a4a8a49f1d761977a5.bindPopup(popup_119d8e70de774dafa58cc2b90ef16aa7);
+
+            
+        
+    
+            var circle_marker_72693d178b284cbf91f2153a3b97423a = L.circleMarker(
+                [32.8283909,-117.1441227],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_f338e3aaf72344f781be73bd116d5826 = L.popup({maxWidth: '300'});
+
+            
+                var html_a76b30f532cf4cec95dcbc2266d11106 = $('<div id="html_a76b30f532cf4cec95dcbc2266d11106" style="width: 100.0%; height: 100.0%;">Kearny Mesa, San Diego, CA</div>')[0];
+                popup_f338e3aaf72344f781be73bd116d5826.setContent(html_a76b30f532cf4cec95dcbc2266d11106);
+            
+
+            circle_marker_72693d178b284cbf91f2153a3b97423a.bindPopup(popup_f338e3aaf72344f781be73bd116d5826);
+
+            
+        
+    
+            var circle_marker_2acfd483747947829e468e8774173cb2 = L.circleMarker(
+                [32.7494988,-117.2470353],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_3b45783ffe6e4aa6ba3f604b34a8ea74 = L.popup({maxWidth: '300'});
+
+            
+                var html_25b62503fed340cf9b7e1eeff5ca095f = $('<div id="html_25b62503fed340cf9b7e1eeff5ca095f" style="width: 100.0%; height: 100.0%;">Ocean Beach, San Diego, CA</div>')[0];
+                popup_3b45783ffe6e4aa6ba3f604b34a8ea74.setContent(html_25b62503fed340cf9b7e1eeff5ca095f);
+            
+
+            circle_marker_2acfd483747947829e468e8774173cb2.bindPopup(popup_3b45783ffe6e4aa6ba3f604b34a8ea74);
+
+            
+        
+    
+            var circle_marker_24c2e50ea97e470c8cff07716db5da07 = L.circleMarker(
+                [41.86954009999999,-87.6511328],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_d78ad4f41c46413c9a5d991ac380d25c = L.popup({maxWidth: '300'});
+
+            
+                var html_991e4b83f3dd4122acc0a4ad741f5099 = $('<div id="html_991e4b83f3dd4122acc0a4ad741f5099" style="width: 100.0%; height: 100.0%;">Little Italy, Chicago, IL</div>')[0];
+                popup_d78ad4f41c46413c9a5d991ac380d25c.setContent(html_991e4b83f3dd4122acc0a4ad741f5099);
+            
+
+            circle_marker_24c2e50ea97e470c8cff07716db5da07.bindPopup(popup_d78ad4f41c46413c9a5d991ac380d25c);
+
+            
+        
+    
+            var circle_marker_7f1b915d2ef54de6867166cf9b1d9c34 = L.circleMarker(
+                [32.767107,-117.1941153],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "gree",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c2f90e697c2f42c5a780787b0c970e80);
+            
+    
+            var popup_cc2768f1ad3c4fadb656c985da33b4fe = L.popup({maxWidth: '300'});
+
+            
+                var html_4183cd4ff83247b2a3d622044858e25e = $('<div id="html_4183cd4ff83247b2a3d622044858e25e" style="width: 100.0%; height: 100.0%;">Morena, San Diego, CA</div>')[0];
+                popup_cc2768f1ad3c4fadb656c985da33b4fe.setContent(html_4183cd4ff83247b2a3d622044858e25e);
+            
+
+            circle_marker_7f1b915d2ef54de6867166cf9b1d9c34.bindPopup(popup_cc2768f1ad3c4fadb656c985da33b4fe);
+
+            
+        
+</script>
